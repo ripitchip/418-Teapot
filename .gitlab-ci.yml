@@ -40,7 +40,7 @@ docker:nginx:
     - mkdir -p docker/book
     - cp -r book/* docker/book/
     - VERSION=$(cat VERSION.txt)
-    - docker build -t "$IMAGE_NAME:latest" -f docker/Dockerfile docker/
+    - docker build -t "$IMAGE_NAME:latest" -t "$IMAGE_NAME:$VERSION" -f docker/Dockerfile docker/
     - docker push "$IMAGE_NAME:latest"
     - docker push "$IMAGE_NAME:$VERSION"
   only:
