@@ -1,0 +1,44 @@
+image: docker:latest
+
+services:
+  - docker:dind
+
+variables:
+  IMAGE_NAME: registry.gitlab.com/ripitchip/418-teapot
+  DOCKER_TLS_CERTDIR: ""
+
+stages:
+  - build
+  - dockerize
+
+# STEP 1: Build mdBook site
+build:mdbook:
+  image: rust:latest
+  stage: build
+  before_script:
+    - apt-get update && apt-get install -y --no-install-recommends curl
+    - cargo install mdbook
+  script:
+    - mdbook build
+  artifacts:
+    paths:
+      - book/
+    expire_in: 1 hour
+  only:
+    - main
+
+# STEP 2: Dockerize static site using Nginx
+docker:nginx:
+  image: docker:latest
+  stage: dockerize
+  dependencies:
+    - build:mdbook
+  before_script:
+    - echo "$CI_REGISTRY_PASSWORD" | docker login -u "$CI_REGISTRY_USER" --password-stdin "$CI_REGISTRY"
+  script:
+    - mkdir -p docker/book
+    - cp -r book/* docker/book/
+    - docker build -t "$IMAGE_NAME:latest" -f docker/Dockerfile docker/
+    - docker push "$IMAGE_NAME:latest"
+  only:
+    - main
