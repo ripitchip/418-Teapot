@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: book-418
+  name: book
   namespace: blog
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: book-418
+      app: book
   template:
     metadata:
       labels:
-        app: book-418
+        app: book
     spec:
       containers:
-        - name: book-418
+        - name: book
           image: registry.gitlab.com/ripitchip/418-teapot:latest
           ports:
             - containerPort: 80
