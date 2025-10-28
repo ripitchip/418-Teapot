@@ -1,0 +1,37 @@
+{
+  "name": "mdBook DevContainer",
+
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+
+  // Optional: expose mdBook server port
+  "forwardPorts": [3000],
+
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "markdownlint.config": {
+          "default": true
+        }
+      },
+      "extensions": [
+        "davidanson.vscode-markdownlint",
+        "yzhang.markdown-all-in-one",
+        "streetsidesoftware.code-spell-checker",
+        "ms-vscode.live-server"
+      ]
+    }
+  },
+
+  "remoteUser": "vscode",
+
+  // Install mdBook automatically after container build
+  "postCreateCommand": "cargo install mdbook",
+
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:2": {},
+    "ghcr.io/devcontainers/features/git:1": {},
+    "ghcr.io/devcontainers/features/rust:1": {}
+  }
+}
