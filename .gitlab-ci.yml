@@ -23,6 +23,7 @@ build:mdbook:
   artifacts:
     paths:
       - book/
+      - VERSION.txt
     expire_in: 1 hour
   only:
     - main
@@ -38,7 +39,9 @@ docker:nginx:
   script:
     - mkdir -p docker/book
     - cp -r book/* docker/book/
+    - VERSION=$(cat VERSION.txt)
     - docker build -t "$IMAGE_NAME:latest" -f docker/Dockerfile docker/
     - docker push "$IMAGE_NAME:latest"
+    - docker push "$IMAGE_NAME:$VERSION"
   only:
     - main

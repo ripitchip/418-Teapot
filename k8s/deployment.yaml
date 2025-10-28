@@ -15,7 +15,6 @@ spec:
     spec:
       containers:
         - name: book
-          image: registry.gitlab.com/ripitchip/418-teapot:latest
+          image: registry.gitlab.com/ripitchip/418-teapot:1.0.1
           ports:
             - containerPort: 80
-
