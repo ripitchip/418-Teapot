@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: book-418
+  namespace: blog
+spec:
+  selector:
+    app: book-418
+  ports:
+    - port: 80
+      targetPort: 80
