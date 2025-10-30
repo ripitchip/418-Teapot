@@ -2,4 +2,28 @@
 authors = ["Thomas Derudder"]
 language = "en"
 src = "src"
+multilingual = true
 title = "418 I am a Teapot"
+
+[build]
+build-dir = "book"
+extra-watch-dirs = ["po"]
+
+[output.html]
+git-repository-url = "https://gitlab.com/Ripitchip/418-teapot"
+edit-url-template = "https://gitlab.com/Ripitchip/418-teapot/edit/main/{path}"
+default-theme = "Navy"
+hash-files = true
+additional-css = ["theme/css/language-picker.css"]
+additional-js = ["theme/js/language-picker.js"]
+
+[output.html.playpen]
+editable = true
+line-numbers = true
+
+[output.html.fold]
+enable = true
+
+[preprocessor.gettext]
+# The gettext preprocessor (from mdbook-i18n-helpers)
+after = ["links"]

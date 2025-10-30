@@ -20,6 +20,7 @@ build:mdbook:
     - cargo install mdbook
   script:
     - mdbook build
+    - MDBOOK_BOOK__LANGUAGE=fr mdbook build -d book/fr
   artifacts:
     paths:
       - book/

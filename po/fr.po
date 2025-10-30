@@ -1,0 +1,20 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 418 I am a Teapot\n"
+"POT-Creation-Date: 2025-10-30T10:25:00Z\n"
+"PO-Revision-Date: 2025-10-30 10:25+0000\n"
+"Last-Translator:  <vscode@30bd1f3101b3>\n"
+"Language-Team: French <traduc@traduc.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: src/SUMMARY.md:1
+msgid "Summary"
+msgstr "Sommaire"
+
+#: src/SUMMARY.md:3 src/chapter_1.md:1
+msgid "Chapter 1"
+msgstr "Chapitre 1"
