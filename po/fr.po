@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 418 I am a Teapot\n"
-"POT-Creation-Date: 2025-10-30T10:25:00Z\n"
-"PO-Revision-Date: 2025-10-30 10:25+0000\n"
-"Last-Translator:  <vscode@30bd1f3101b3>\n"
+"POT-Creation-Date: 2025-11-02T19:50:06Z\n"
+"PO-Revision-Date: 2025-10-31 14:03+0000\n"
+"Last-Translator:  <vscode@fb22821291d2>\n"
 "Language-Team: French <traduc@traduc.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -18,3 +18,138 @@ msgstr "Sommaire"
 #: src/SUMMARY.md:3 src/chapter_1.md:1
 msgid "Chapter 1"
 msgstr "Chapitre 1"
+
+#: src/SUMMARY.md:5
+msgid "Infrastructure Management"
+msgstr "Gestion d'Infrastructure"
+
+#: src/SUMMARY.md:7
+#, fuzzy
+msgid "Vagrant Presentation"
+msgstr "Présentation"
+
+#: src/SUMMARY.md:9
+msgid "Radio Amateur"
+msgstr "Radio Amateur"
+
+#: src/SUMMARY.md:11
+msgid "Presentation"
+msgstr "Présentation"
+
+#: src/SUMMARY.md:12
+#, fuzzy
+msgid "Exercices"
+msgstr "Exercices"
+
+#: src/SUMMARY.md:13
+#, fuzzy
+msgid "Exercice 1"
+msgstr "Exercices"
+
+#: src/SUMMARY.md:15
+msgid "Tools"
+msgstr "Tools"
+
+#: src/SUMMARY.md:16
+msgid "Project"
+msgstr "Projets"
+
+#: src/SUMMARY.md:17 src/tools/CookieCutter.md:1
+msgid "Cookie Cutter"
+msgstr "Cookie Cutter"
+
+#: src/SUMMARY.md:18
+msgid "LazyGit"
+msgstr "LazyGit"
+
+#: src/Infrastructure/vagrant.md:1
+#, fuzzy
+msgid "Vagrant presentation"
+msgstr "Présentation"
+
+#: src/radio_amateur/presentation.md:1
+msgid "Introduction to Amateur Radio"
+msgstr "Introduction au radio amateurisme"
+
+#: src/radio_amateur/presentation.md:3
+msgid ""
+"To prepare for the amateur radio exam, I used the \"Le Radioamateur\" 4th "
+"edition book."
+msgstr ""
+"Pour préparer l'examen de radio amateur, j'ai pu prendre le radioamateur "
+"4ème édition."
+
+#: src/radio_amateur/presentation.md:8
+msgid "**Le Radioamateur (4th edition)**"
+msgstr "**Le Radioamateur (4ème edition)**"
+
+#: src/radio_amateur/electrical_circuits/exercises.md:1
+msgid "Exercises"
+msgstr "Exercices"
+
+#: src/radio_amateur/electrical_circuits/exercises.md:3
+msgid "Here a list of exercices:"
+msgstr "Voici une liste d'exercices:"
+
+#: src/radio_amateur/electrical_circuits/exercises.md:5
+#, fuzzy
+msgid "Exercise 1:"
+msgstr "Exercice 1:"
+
+#: src/radio_amateur/electrical_circuits/exercises.md:7
+#: src/radio_amateur/electrical_circuits/exercise1.md:5
+#, fuzzy
+msgid "![schéma1](/images/chapter1/demo1/demo1.png)"
+msgstr "![schéma1](images/chapter1/demo1/demo1.png)"
+
+#: src/radio_amateur/electrical_circuits/exercises.md:9
+#, fuzzy
+msgid "Exercise 2:"
+msgstr "Exercice 2:"
+
+#: src/radio_amateur/electrical_circuits/exercise1.md:1
+#, fuzzy
+msgid "Exercise 1"
+msgstr "Exercice 1"
+
+#: src/radio_amateur/electrical_circuits/exercise1.md:3
+msgid "Here is a circuit to simplify."
+msgstr "Voici un circuit à simplifier."
+
+#: src/radio_amateur/electrical_circuits/exercise1.md:7
+msgid "We can first simplify R2,R3,R4."
+msgstr "On peut simplifier en premier R2, R3 et R4"
+
+#: src/radio_amateur/electrical_circuits/exercise1.md:9
+msgid ""
+"We can simplify this part of the scheme, let's do it. ![schéma1](/images/"
+"chapter1/demo2/demo2.png) $$ \\\\mathbf{ R\\_{eq} = \\frac{R_2 (R_3 + R_4)}"
+"{R_2 + R_3 + R_4} = 1.1~\\\\Omega } $$ ![schéma1](/images/chapter1/demo3/"
+"demo3.png)"
+msgstr ""
+"On peut simplifier les schéma. ![schéma1](/images/chapter1/demo2/demo2.png) $"
+"$ \\\\mathbf{ R\\_{eq} = \\frac{R_2 (R_3 + R_4)}{R_2 + R_3 + R_4} = 1.1~\\"
+"\\Omega } $$ ![schéma1](/images/chapter1/demo3/demo3.png)"
+
+#: src/radio_amateur/electrical_circuits/exercise1.md:19
+msgid "And then easy peasy"
+msgstr "Plus qu'à finir..."
+
+#: src/radio_amateur/electrical_circuits/exercise1.md:21
+#, fuzzy
+msgid "![schéma1](/images/chapter1/demo4/demo4.png)"
+msgstr "![schéma1](images/chapter1/demo1/demo1.png)"
+
+#: src/tools/LazyGit.md:1
+msgid "Lazygit"
+msgstr "Lazygit"
+
+#, fuzzy
+#~ msgid "Exercice 2"
+#~ msgstr "Exercices"
+
+#~ msgid "Circuits"
+#~ msgstr "Circuits"
+
+#~ msgid "![schéma1](images/chapter1/demo1/demo1.png)"
+#~ msgstr "![schéma1](images/chapter1/demo1/demo1.png)"

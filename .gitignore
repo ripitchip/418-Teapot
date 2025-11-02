@@ -1,2 +1,10 @@
 book
 *.pot
+*.gz
+*.aux
+*.log
+*.toc
+*.dvi
+*.fls
+*.fdb_latexmk
+*.synctex.gz

@@ -1,0 +1,19 @@
+\documentclass{standalone}
+\usepackage[siunitx,european, straightvoltages]{circuitikz}
+
+\begin{document}
+
+\begin{circuitikz}
+    % --- BRANCHE GAUCHE (R1 & R2) ---
+    \draw (0,0)
+        to[vsource, v_>=$100\,\mathrm{V}$] (0,2) % Source de tension V
+        % Résistance R1 : Nom en dessous (l_), Valeur au-dessus (a^)
+        to[R, l_=$R_1$, a^={\SI{1.2}{\kilo\ohm}}] (4,2) node[circ, label={[text=red]90:A}, color=red]{} ;
+        % Résistance R2 : Nom en dessous (l_), Valeur au-dessus (a^)
+    \draw (0,0) to[short] (4,0); % Retour à la source
+
+    % --- FIL DE CONNEXION CENTRAL A-B (Rouge) ---
+    \draw[red] (4,2) to[R, l_=$R_{eq_{234}}$, a^={\SI{1.1}{\kilo\ohm}}] (4,0) node[circ, label={[text=red]45:B}, color=red]{};
+
+\end{circuitikz}
+\end{document}

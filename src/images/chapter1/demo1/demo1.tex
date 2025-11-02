@@ -1,0 +1,24 @@
+\documentclass{standalone}
+\usepackage[siunitx,european, straightvoltages]{circuitikz}
+
+\begin{document}
+
+\begin{circuitikz}
+    % Source de tension
+    \draw (0,0)
+        to[vsource, v_>=$100\,\mathrm{V}$] (0,2)
+        % Résistance R1 : Nom en dessous (l_), Valeur au-dessus (a^)
+        to[R, l_=$R_1$, a^={\SI{1.2}{\kilo\ohm}}] (4,2) node[circ, label={90:A}]{} 
+        % Résistance R2 : Nom en dessous (l_), Valeur au-dessus (a^)
+        to[R, l_=$R_2$, a^={\SI{1.5}{\kilo\ohm}}] (4,0) node[circ, label={45:B}]{}
+        to[short] (0,0);
+
+    % Branche droite du pont de résistances
+    \draw (4,2)
+        % Résistance R3 : Nom en dessous (l_), Valeur au-dessus (a^)
+        to[R, l_=$R_3$, a^={\SI{1.8}{\kilo\ohm}}] (8,2)
+        % Résistance R4 : Nom en dessous (l_), Valeur au-dessus (a^)
+        to[R, l_=$R_4$, a^={\SI{2.2}{\kilo\ohm}}] (8,0)
+        to[short] (4,0);
+\end{circuitikz}
+\end{document}

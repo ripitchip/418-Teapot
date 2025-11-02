@@ -15,7 +15,8 @@ edit-url-template = "https://gitlab.com/Ripitchip/418-teapot/edit/main/{path}"
 default-theme = "Navy"
 hash-files = true
 additional-css = ["theme/css/language-picker.css"]
-additional-js = ["theme/js/language-picker.js"]
+additional-js = ["theme/js/language-picker.js", "theme/js/mermaid.min.js", "theme/js/mermaid-init.js"]
+mathjax-support = true
 
 [output.html.playpen]
 editable = true
@@ -27,3 +28,6 @@ enable = true
 [preprocessor.gettext]
 # The gettext preprocessor (from mdbook-i18n-helpers)
 after = ["links"]
+
+[preprocessor.mermaid]
+command = "mdbook-mermaid"
