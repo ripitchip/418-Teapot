@@ -10,7 +10,6 @@
         "markdownlint.config": { "default": true }
       },
       "extensions": [
-        "davidanson.vscode-markdownlint",
         "yzhang.markdown-all-in-one",
         "streetsidesoftware.code-spell-checker",
         "ms-vscode.live-server",

@@ -22,7 +22,8 @@ RUN cargo install mdbook \
     && cargo install mdbook-tera-backend \
     && cargo install i18n-report \
     && cargo install mdbook-i18n-helpers \
-    && cargo install mdbook-mermaid
+    && cargo install mdbook-mermaid \
+    && cargo install mdbook-tabs
 
 # Add completions
 RUN echo 'eval "$(mdbook completions zsh)"' >> ~/.zshrc

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 418 I am a Teapot\n"
-"POT-Creation-Date: 2025-11-02T19:50:06Z\n"
+"POT-Creation-Date: 2025-11-03T21:14:26Z\n"
 "PO-Revision-Date: 2025-10-31 14:03+0000\n"
 "Last-Translator:  <vscode@fb22821291d2>\n"
 "Language-Team: French <traduc@traduc.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 msgid "Summary"
 msgstr "Sommaire"
 
-#: src/SUMMARY.md:3 src/chapter_1.md:1
+#: src/SUMMARY.md:3 src/chapter_1.md:3
 msgid "Chapter 1"
 msgstr "Chapitre 1"
 
@@ -36,25 +36,27 @@ msgstr "Radio Amateur"
 msgid "Presentation"
 msgstr "Présentation"
 
-#: src/SUMMARY.md:12
-#, fuzzy
-msgid "Exercices"
+#: src/SUMMARY.md:12 src/SUMMARY.md:23
+#: src/radio_amateur/electrical_circuits/exercises.md:3
+#: src/leetcode/arrays&hashing.md:5
+msgid "Exercises"
 msgstr "Exercices"
 
-#: src/SUMMARY.md:13
+#: src/SUMMARY.md:13 src/radio_amateur/electrical_circuits/exercise1.md:3
 #, fuzzy
-msgid "Exercice 1"
-msgstr "Exercices"
+msgid "Exercise 1"
+msgstr "Exercice 1"
 
 #: src/SUMMARY.md:15
 msgid "Tools"
 msgstr "Tools"
 
 #: src/SUMMARY.md:16
-msgid "Project"
+#, fuzzy
+msgid "Project Tools"
 msgstr "Projets"
 
-#: src/SUMMARY.md:17 src/tools/CookieCutter.md:1
+#: src/SUMMARY.md:17 src/tools/CookieCutter.md:3
 msgid "Cookie Cutter"
 msgstr "Cookie Cutter"
 
@@ -62,16 +64,37 @@ msgstr "Cookie Cutter"
 msgid "LazyGit"
 msgstr "LazyGit"
 
-#: src/Infrastructure/vagrant.md:1
+#: src/SUMMARY.md:20
+msgid "Leetcode"
+msgstr "LeetCode"
+
+#: src/SUMMARY.md:21
 #, fuzzy
-msgid "Vagrant presentation"
+msgid "Presentation LeetCode"
 msgstr "Présentation"
 
-#: src/radio_amateur/presentation.md:1
+#: src/SUMMARY.md:22
+msgid "Arrays And Hashing"
+msgstr "Arrays et Hashing"
+
+#: src/SUMMARY.md:24
+msgid "217"
+msgstr "217"
+
+#: src/SUMMARY.md:25
+msgid "242"
+msgstr "242"
+
+#: src/Infrastructure/vagrant.md:3
+#, fuzzy
+msgid "Vagrant presentation"
+msgstr "Présentation de Vagrant"
+
+#: src/radio_amateur/presentation.md:3
 msgid "Introduction to Amateur Radio"
 msgstr "Introduction au radio amateurisme"
 
-#: src/radio_amateur/presentation.md:3
+#: src/radio_amateur/presentation.md:5
 msgid ""
 "To prepare for the amateur radio exam, I used the \"Le Radioamateur\" 4th "
 "edition book."
@@ -79,70 +102,256 @@ msgstr ""
 "Pour préparer l'examen de radio amateur, j'ai pu prendre le radioamateur "
 "4ème édition."
 
-#: src/radio_amateur/presentation.md:8
+#: src/radio_amateur/presentation.md:10
 msgid "**Le Radioamateur (4th edition)**"
 msgstr "**Le Radioamateur (4ème edition)**"
 
-#: src/radio_amateur/electrical_circuits/exercises.md:1
-msgid "Exercises"
-msgstr "Exercices"
-
-#: src/radio_amateur/electrical_circuits/exercises.md:3
+#: src/radio_amateur/electrical_circuits/exercises.md:5
 msgid "Here a list of exercices:"
 msgstr "Voici une liste d'exercices:"
 
-#: src/radio_amateur/electrical_circuits/exercises.md:5
+#: src/radio_amateur/electrical_circuits/exercises.md:7
 #, fuzzy
 msgid "Exercise 1:"
 msgstr "Exercice 1:"
 
-#: src/radio_amateur/electrical_circuits/exercises.md:7
-#: src/radio_amateur/electrical_circuits/exercise1.md:5
+#: src/radio_amateur/electrical_circuits/exercises.md:9
+#: src/radio_amateur/electrical_circuits/exercise1.md:7
 #, fuzzy
 msgid "![schéma1](/images/chapter1/demo1/demo1.png)"
 msgstr "![schéma1](images/chapter1/demo1/demo1.png)"
 
-#: src/radio_amateur/electrical_circuits/exercises.md:9
+#: src/radio_amateur/electrical_circuits/exercises.md:11
 #, fuzzy
 msgid "Exercise 2:"
 msgstr "Exercice 2:"
 
-#: src/radio_amateur/electrical_circuits/exercise1.md:1
-#, fuzzy
-msgid "Exercise 1"
-msgstr "Exercice 1"
-
-#: src/radio_amateur/electrical_circuits/exercise1.md:3
+#: src/radio_amateur/electrical_circuits/exercise1.md:5
 msgid "Here is a circuit to simplify."
 msgstr "Voici un circuit à simplifier."
 
-#: src/radio_amateur/electrical_circuits/exercise1.md:7
+#: src/radio_amateur/electrical_circuits/exercise1.md:9
 msgid "We can first simplify R2,R3,R4."
 msgstr "On peut simplifier en premier R2, R3 et R4"
 
-#: src/radio_amateur/electrical_circuits/exercise1.md:9
-msgid ""
-"We can simplify this part of the scheme, let's do it. ![schéma1](/images/"
-"chapter1/demo2/demo2.png) $$ \\\\mathbf{ R\\_{eq} = \\frac{R_2 (R_3 + R_4)}"
-"{R_2 + R_3 + R_4} = 1.1~\\\\Omega } $$ ![schéma1](/images/chapter1/demo3/"
-"demo3.png)"
-msgstr ""
-"On peut simplifier les schéma. ![schéma1](/images/chapter1/demo2/demo2.png) $"
-"$ \\\\mathbf{ R\\_{eq} = \\frac{R_2 (R_3 + R_4)}{R_2 + R_3 + R_4} = 1.1~\\"
-"\\Omega } $$ ![schéma1](/images/chapter1/demo3/demo3.png)"
+#: src/radio_amateur/electrical_circuits/exercise1.md:11
+msgid "We can simplify this part of the scheme, let's do it."
+msgstr "On peut simplifier cette partie du schéma."
 
-#: src/radio_amateur/electrical_circuits/exercise1.md:19
+#: src/radio_amateur/electrical_circuits/exercise1.md:13
+msgid ""
+"![schéma1](/images/chapter1/demo2/demo2.png) <span class=\"katex-"
+"display\"><span class=\"katex\"><span class=\"katex-html\" aria-"
+"hidden=\"true\"><span class=\"base\"><span class=\"strut\" "
+"style=\"height:2.263em;vertical-align:-0.836em;\"></span><span "
+"class=\"mord\"><span class=\"mord\"><span class=\"mord mathbf\">R</"
+"span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span "
+"class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.1611em;\"><span "
+"style=\"top:-2.55em;margin-left:0em;margin-right:0.05em;\"><span "
+"class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-"
+"size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mathbf "
+"mtight\">eq</span></span></span></span></span><span class=\"vlist-s\">​</"
+"span></span><span class=\"vlist-r\"><span class=\"vlist\" "
+"style=\"height:0.2861em;\"><span></span></span></span></span></span></"
+"span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span "
+"class=\"mrel\">=</span><span class=\"mspace\" style=\"margin-right:0.2778em;"
+"\"></span><span class=\"mord\"><span class=\"mopen nulldelimiter\"></"
+"span><span class=\"mfrac\"><span class=\"vlist-t vlist-t2\"><span "
+"class=\"vlist-r\"><span class=\"vlist\" style=\"height:1.427em;\"><span "
+"style=\"top:-2.314em;\"><span class=\"pstrut\" style=\"height:3em;\"></"
+"span><span class=\"mord\"><span class=\"mord\"><span class=\"mord "
+"mathbf\">R</span><span class=\"msupsub\"><span class=\"vlist-t vlist-"
+"t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.3011em;"
+"\"><span style=\"top:-2.55em;margin-left:0em;margin-right:0.05em;\"><span "
+"class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-"
+"size6 size3 mtight\"><span class=\"mord mathbf mtight\">2</span></span></"
+"span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-"
+"r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></"
+"span></span></span></span><span class=\"mspace\" style=\"margin-"
+"right:0.2222em;\"></span><span class=\"mbin\">+</span><span class=\"mspace\" "
+"style=\"margin-right:0.2222em;\"></span><span class=\"mord\"><span "
+"class=\"mord mathbf\">R</span><span class=\"msupsub\"><span class=\"vlist-t "
+"vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" "
+"style=\"height:0.3011em;\"><span style=\"top:-2.55em;margin-left:0em;margin-"
+"right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span "
+"class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mathbf "
+"mtight\">3</span></span></span></span><span class=\"vlist-s\">​</span></"
+"span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;"
+"\"><span></span></span></span></span></span></span><span class=\"mspace\" "
+"style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">+</span><span "
+"class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span "
+"class=\"mord\"><span class=\"mord mathbf\">R</span><span "
+"class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-"
+"r\"><span class=\"vlist\" style=\"height:0.3011em;\"><span "
+"style=\"top:-2.55em;margin-left:0em;margin-right:0.05em;\"><span "
+"class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-"
+"size6 size3 mtight\"><span class=\"mord mathbf mtight\">4</span></span></"
+"span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-"
+"r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></"
+"span></span></span></span></span></span><span style=\"top:-3.23em;\"><span "
+"class=\"pstrut\" style=\"height:3em;\"></span><span class=\"frac-line\" "
+"style=\"border-bottom-width:0.04em;\"></span></span><span "
+"style=\"top:-3.677em;\"><span class=\"pstrut\" style=\"height:3em;\"></"
+"span><span class=\"mord\"><span class=\"mord\"><span class=\"mord "
+"mathbf\">R</span><span class=\"msupsub\"><span class=\"vlist-t vlist-"
+"t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.3011em;"
+"\"><span style=\"top:-2.55em;margin-left:0em;margin-right:0.05em;\"><span "
+"class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-"
+"size6 size3 mtight\"><span class=\"mord mathbf mtight\">2</span></span></"
+"span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-"
+"r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></"
+"span></span></span></span><span class=\"mopen\">(</span><span "
+"class=\"mord\"><span class=\"mord mathbf\">R</span><span "
+"class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-"
+"r\"><span class=\"vlist\" style=\"height:0.3011em;\"><span "
+"style=\"top:-2.55em;margin-left:0em;margin-right:0.05em;\"><span "
+"class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-"
+"size6 size3 mtight\"><span class=\"mord mathbf mtight\">3</span></span></"
+"span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-"
+"r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></"
+"span></span></span></span><span class=\"mspace\" style=\"margin-"
+"right:0.2222em;\"></span><span class=\"mbin\">+</span><span class=\"mspace\" "
+"style=\"margin-right:0.2222em;\"></span><span class=\"mord\"><span "
+"class=\"mord mathbf\">R</span><span class=\"msupsub\"><span class=\"vlist-t "
+"vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" "
+"style=\"height:0.3011em;\"><span style=\"top:-2.55em;margin-left:0em;margin-"
+"right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span "
+"class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mathbf "
+"mtight\">4</span></span></span></span><span class=\"vlist-s\">​</span></"
+"span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;"
+"\"><span></span></span></span></span></span></span><span class=\"mclose\">)</"
+"span></span></span></span><span class=\"vlist-s\">​</span></span><span "
+"class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.836em;\"><span></"
+"span></span></span></span></span><span class=\"mclose nulldelimiter\"></"
+"span></span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></"
+"span><span class=\"mrel\">=</span><span class=\"mspace\" style=\"margin-"
+"right:0.2778em;\"></span><span class=\"mord mathbf\">1.1</span><span "
+"class=\"mspace nobreak\"> </span><span class=\"mord mathbf\">Ω</span></"
+"span></span></span></span></span>"
+msgstr ""
+
+#: src/radio_amateur/electrical_circuits/exercise1.md:16
+#, fuzzy
+msgid "![schéma1](/images/chapter1/demo3/demo3.png)"
+msgstr "![schéma1](images/chapter1/demo1/demo1.png)"
+
+#: src/radio_amateur/electrical_circuits/exercise1.md:18
 msgid "And then easy peasy"
 msgstr "Plus qu'à finir..."
 
-#: src/radio_amateur/electrical_circuits/exercise1.md:21
+#: src/radio_amateur/electrical_circuits/exercise1.md:20
 #, fuzzy
 msgid "![schéma1](/images/chapter1/demo4/demo4.png)"
 msgstr "![schéma1](images/chapter1/demo1/demo1.png)"
 
-#: src/tools/LazyGit.md:1
+#: src/tools/CookieCutter.md:5
+msgid ""
+"Here is an [example](https://gitlab.com/Ripitchip/simple-python-"
+"cookiecutter) of a cookieCutter project."
+msgstr ""
+"Voici un [exemple](https://gitlab.com/Ripitchip/simple-python-"
+"cookiecutter) d'un projet cookieCutter"
+
+#: src/tools/CookieCutter.md:7
+msgid "It is a pretty good tool to create template. !TODO"
+msgstr "C'est un outil très pratique pour la création de template."
+
+#: src/tools/LazyGit.md:3
 msgid "Lazygit"
 msgstr "Lazygit"
+
+#: src/leetcode/presentation.md:3
+#, fuzzy
+msgid "Presentation of LeetCode"
+msgstr "Présentation"
+
+#: src/leetcode/arrays&hashing.md:3
+msgid "Arrays and hashing"
+msgstr "Arrays et hashing"
+
+#: src/leetcode/arrays&hashing.md:7
+msgid "[Contains Duplicate](./exercises/217.md)"
+msgstr "[Contains Duplicate](./exercises/217.md)"
+
+#: src/leetcode/exercises/217.md:3
+msgid "217. Contains Duplicate"
+msgstr "217. Contains Duplicate"
+
+#: src/leetcode/exercises/217.md:15
+msgid "<unordered_set>"
+msgstr ""
+
+#: src/leetcode/exercises/217.md:16 src/leetcode/exercises/242.md:15
+msgid "<vector>"
+msgstr ""
+
+#: src/leetcode/exercises/217.md:37 src/leetcode/exercises/242.md:41
+msgid "!TODO"
+msgstr ""
+
+#: src/leetcode/exercises/217.md:46
+msgid ""
+"\"\"\"\n"
+"        :type nums: List[int]\n"
+"        :rtype: bool\n"
+"        \"\"\""
+msgstr ""
+
+#: src/leetcode/exercises/217.md:53
+msgid ""
+"\\-> Castt a set on list is O(n) and a len is O(1) and len(nums) is O(n) in "
+"time \\-> In memory it doesn't allocate anything."
+msgstr ""
+
+#: src/leetcode/exercises/242.md:3
+msgid "242. Valid Anagram"
+msgstr ""
+
+#: src/leetcode/exercises/242.md:14
+msgid "<string>"
+msgstr ""
+
+#: src/leetcode/exercises/242.md:22 src/leetcode/exercises/242.md:25
+msgid "'a'"
+msgstr ""
+
+#: src/leetcode/exercises/242.md:50
+msgid "''"
+msgstr ""
+
+#: src/leetcode/exercises/242.md:50
+msgid "\"\""
+msgstr ""
+
+#: src/leetcode/exercises/242.md:52
+msgid "This is far better:"
+msgstr ""
+
+#: src/leetcode/exercises/242.md:58 src/leetcode/exercises/242.md:60
+msgid "\"a\""
+msgstr ""
+
+#: src/leetcode/exercises/242.md:63
+msgid "\\-> Easy solution but not efficient at all."
+msgstr ""
+
+#, fuzzy
+#~ msgid "Exercices"
+#~ msgstr "Exercices"
+
+#, fuzzy
+#~ msgid "Exercice 1"
+#~ msgstr "Exercices"
+
+#~ msgid ""
+#~ "We can simplify this part of the scheme, let's do it. ![schéma1](/images/"
+#~ "chapter1/demo2/demo2.png) $$ \\\\mathbf{ R\\_{eq} = \\frac{R_2 (R_3 + "
+#~ "R_4)}{R_2 + R_3 + R_4} = 1.1~\\\\Omega } $$ ![schéma1](/images/chapter1/"
+#~ "demo3/demo3.png)"
+#~ msgstr ""
+#~ "On peut simplifier les schéma. ![schéma1](/images/chapter1/demo2/"
+#~ "demo2.png) $$ \\\\mathbf{ R\\_{eq} = \\frac{R_2 (R_3 + R_4)}{R_2 + R_3 + "
+#~ "R_4} = 1.1~\\\\Omega } $$ ![schéma1](/images/chapter1/demo3/demo3.png)"
 
 #, fuzzy
 #~ msgid "Exercice 2"
