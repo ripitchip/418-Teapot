@@ -17,7 +17,12 @@ build:mdbook:
   stage: build
   before_script:
     - apt-get update && apt-get install -y --no-install-recommends curl
-    - cargo install mdbook
+    - cargo install mdbook \
+      && cargo install mdbook-tera-backend \
+      && cargo install i18n-report \
+      && cargo install mdbook-i18n-helpers \
+      && cargo install mdbook-mermaid \
+      && cargo install mdbook-tabs
   script:
     - mdbook build
     - MDBOOK_BOOK__LANGUAGE=fr mdbook build -d book/fr
