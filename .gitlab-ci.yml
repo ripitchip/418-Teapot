@@ -11,30 +11,31 @@ stages:
   - build
   - dockerize
 
-# STEP 1: Build mdBook site
+# STEP 1: Build mdBook output (matches mdbook-builder)
 build:mdbook:
   image: rust:latest
   stage: build
   before_script:
     - apt-get update && apt-get install -y --no-install-recommends curl
-    - cargo install mdbook \
-      && cargo install mdbook-tera-backend \
-      && cargo install i18n-report \
-      && cargo install mdbook-i18n-helpers \
-      && cargo install mdbook-mermaid \
-      && cargo install mdbook-tabs
+    # Same plugin installs as in docker-compose.yml
+    - cargo install mdbook
+    - cargo install mdbook-tera-backend
+    - cargo install i18n-report
+    - cargo install mdbook-i18n-helpers
+    - cargo install mdbook-mermaid
+    - cargo install mdbook-tabs
   script:
+    # Use same working dir and exact build commands as mdbook-builder
     - mdbook build
     - MDBOOK_BOOK__LANGUAGE=fr mdbook build -d book/fr
   artifacts:
     paths:
       - book/
-      - VERSION.txt
     expire_in: 1 hour
   only:
     - main
 
-# STEP 2: Dockerize static site using Nginx
+# STEP 2: Create Nginx image to serve book (matches nginx service)
 docker:nginx:
   image: docker:latest
   stage: dockerize
@@ -43,11 +44,19 @@ docker:nginx:
   before_script:
     - echo "$CI_REGISTRY_PASSWORD" | docker login -u "$CI_REGISTRY_USER" --password-stdin "$CI_REGISTRY"
   script:
+    # Recreate Compose-like structure
     - mkdir -p docker/book
     - cp -r book/* docker/book/
-    - VERSION=$(cat VERSION.txt)
-    - docker build -t "$IMAGE_NAME:latest" -t "$IMAGE_NAME:$VERSION" -f docker/Dockerfile docker/
+
+    # Create a Dockerfile dynamically if not in repo
+    - |
+      cat > docker/Dockerfile <<'EOF'
+      FROM nginx:alpine
+      COPY book/ /usr/share/nginx/html/
+      EOF
+
+    # Build and push image to match Compose nginx
+    - docker build -t "$IMAGE_NAME:latest" -f docker/Dockerfile docker/
     - docker push "$IMAGE_NAME:latest"
-    - docker push "$IMAGE_NAME:$VERSION"
   only:
     - main
