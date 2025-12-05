@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1
-FROM mcr.microsoft.com/devcontainers/rust:1
+FROM mcr.microsoft.com/devcontainers/rust
 
 ARG USER=vscode
 USER root

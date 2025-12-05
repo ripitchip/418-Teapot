@@ -2,7 +2,6 @@
 authors = ["Thomas Derudder"]
 language = "en"
 src = "src"
-multilingual = true
 title = "418 I am a Teapot"
 
 [build]
@@ -16,9 +15,6 @@ default-theme = "Navy"
 hash-files = true
 additional-css = ["theme/css/language-picker.css", "theme/css/tabs.css", ]
 additional-js = ["theme/js/language-picker.js", "theme/js/mermaid.min.js", "theme/js/mermaid-init.js", "theme/js/tabs.js"]
-mathjax-support = false
-use-katex = true
-highlight = true
 
 [output.html.playpen]
 editable = true
@@ -28,13 +24,9 @@ line-numbers = true
 enable = true
 
 [preprocessor.gettext]
-# The gettext preprocessor (from mdbook-i18n-helpers)
 after = ["links"]
 
 [preprocessor.mermaid]
 command = "mdbook-mermaid"
 
 [preprocessor.tabs]
-
-[preprocessor.katex]
-after = ["links"]
