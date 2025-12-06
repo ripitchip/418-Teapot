@@ -55,8 +55,13 @@ docker:nginx:
       COPY book/ /usr/share/nginx/html/
       EOF
 
-    # Build and push image to match Compose nginx
-    - docker build -t "$IMAGE_NAME:latest" -f docker/Dockerfile docker/
+    # Read version from VERSION.txt
+    - export VERSION=$(cat VERSION.txt | tr -d '\n')
+    - echo "Building version $VERSION"
+
+    # Build and push image with both latest and version tags
+    - docker build -t "$IMAGE_NAME:latest" -t "$IMAGE_NAME:$VERSION" -f docker/Dockerfile docker/
     - docker push "$IMAGE_NAME:latest"
+    - docker push "$IMAGE_NAME:$VERSION"
   only:
     - main
