@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 418 I am a Teapot\n"
-"POT-Creation-Date: 2025-11-03T21:14:26Z\n"
+"POT-Creation-Date: 2025-12-05T18:51:58Z\n"
 "PO-Revision-Date: 2025-10-31 14:03+0000\n"
 "Last-Translator:  <vscode@fb22821291d2>\n"
 "Language-Team: French <traduc@traduc.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 msgid "Summary"
 msgstr "Sommaire"
 
-#: src/SUMMARY.md:3 src/chapter_1.md:3
+#: src/SUMMARY.md:3 src/chapter_1.md:1
 msgid "Chapter 1"
 msgstr "Chapitre 1"
 
@@ -29,72 +29,1531 @@ msgid "Vagrant Presentation"
 msgstr "Présentation"
 
 #: src/SUMMARY.md:9
+msgid "Cybersecurity"
+msgstr "Cybersécurité"
+
+#: src/SUMMARY.md:10
+msgid "Attacks type"
+msgstr ""
+
+#: src/SUMMARY.md:11
+msgid "Social Engineerings"
+msgstr ""
+
+#: src/SUMMARY.md:12
+msgid "Malware"
+msgstr ""
+
+#: src/SUMMARY.md:13
+msgid "Network"
+msgstr ""
+
+#: src/SUMMARY.md:14
+msgid "App Level"
+msgstr ""
+
+#: src/SUMMARY.md:15
+msgid "Cybersecurity tools"
+msgstr "Cybersecurity tools"
+
+#: src/SUMMARY.md:16 src/cybersecurity/tools/ss.md:1
+msgid "ss"
+msgstr "ss"
+
+#: src/SUMMARY.md:18
 msgid "Radio Amateur"
 msgstr "Radio Amateur"
 
-#: src/SUMMARY.md:11
+#: src/SUMMARY.md:20
 msgid "Presentation"
 msgstr "Présentation"
 
-#: src/SUMMARY.md:12 src/SUMMARY.md:23
-#: src/radio_amateur/electrical_circuits/exercises.md:3
-#: src/leetcode/arrays&hashing.md:5
+#: src/SUMMARY.md:21 src/SUMMARY.md:32
+#: src/radio_amateur/electrical_circuits/exercises.md:1
+#: src/leetcode/arrays&hashing.md:3
 msgid "Exercises"
 msgstr "Exercices"
 
-#: src/SUMMARY.md:13 src/radio_amateur/electrical_circuits/exercise1.md:3
+#: src/SUMMARY.md:22 src/radio_amateur/electrical_circuits/exercise1.md:1
 #, fuzzy
 msgid "Exercise 1"
 msgstr "Exercice 1"
 
-#: src/SUMMARY.md:15
+#: src/SUMMARY.md:24
 msgid "Tools"
 msgstr "Tools"
 
-#: src/SUMMARY.md:16
+#: src/SUMMARY.md:25
 #, fuzzy
 msgid "Project Tools"
 msgstr "Projets"
 
-#: src/SUMMARY.md:17 src/tools/CookieCutter.md:3
+#: src/SUMMARY.md:26 src/tools/CookieCutter.md:1
 msgid "Cookie Cutter"
 msgstr "Cookie Cutter"
 
-#: src/SUMMARY.md:18
+#: src/SUMMARY.md:27
 msgid "LazyGit"
 msgstr "LazyGit"
 
-#: src/SUMMARY.md:20
+#: src/SUMMARY.md:29
 msgid "Leetcode"
 msgstr "LeetCode"
 
-#: src/SUMMARY.md:21
+#: src/SUMMARY.md:30
 #, fuzzy
 msgid "Presentation LeetCode"
 msgstr "Présentation"
 
-#: src/SUMMARY.md:22
+#: src/SUMMARY.md:31
 msgid "Arrays And Hashing"
 msgstr "Arrays et Hashing"
 
-#: src/SUMMARY.md:24
+#: src/SUMMARY.md:33
 msgid "217"
 msgstr "217"
 
-#: src/SUMMARY.md:25
+#: src/SUMMARY.md:34
 msgid "242"
 msgstr "242"
 
-#: src/Infrastructure/vagrant.md:3
+#: src/Infrastructure/vagrant.md:1
 #, fuzzy
 msgid "Vagrant presentation"
 msgstr "Présentation de Vagrant"
 
-#: src/radio_amateur/presentation.md:3
+#: src/cybersecurity/attacks/social_engineering.md:1
+#: src/cybersecurity/attacks/social_engineering.md:5
+msgid "**Social Engineering Attacks**"
+msgstr "Attaque par ingénierie sociale"
+
+#: src/cybersecurity/attacks/social_engineering.md:7
+msgid ""
+"Social engineering is the manipulation of people to gain unauthorized "
+"access, steal information, or trick victims into performing harmful actions. "
+"Instead of exploiting technical flaws, it exploits **human weaknesses** such "
+"as trust, curiosity, fear, or urgency."
+msgstr ""
+"L’ingénierie sociale est la manipulation des personnes pour obtenir un accès "
+"non autorisé, voler des informations ou tromper les victimes afin qu’elles "
+"effectuent des actions nuisibles. Au lieu d’exploiter des failles "
+"techniques, elle exploite les **faiblesses humaines** telles que la "
+"confiance, la curiosité, la peur ou l’urgence."
+
+#: src/cybersecurity/attacks/social_engineering.md:10
+msgid "**• Phishing**"
+msgstr "**• Phishing**"
+
+#: src/cybersecurity/attacks/social_engineering.md:12
+msgid ""
+"Mass fraudulent emails or messages designed to trick users into clicking "
+"malicious links or giving away credentials."
+msgstr ""
+"Emails ou messages frauduleux massifs conçus pour tromper les utilisateurs "
+"afin qu’ils cliquent surlinks malveillants ou divulguent leurs identifiants."
+
+#: src/cybersecurity/attacks/social_engineering.md:14
+msgid "**• Spear‑Phishing**"
+msgstr "**• Spear‑Phishing**"
+
+#: src/cybersecurity/attacks/social_engineering.md:16
+msgid ""
+"Highly targeted phishing aimed at specific individuals, executives, or "
+"departments."
+msgstr ""
+"Phishing hautement ciblé visant des individus spécifiques, des cadres ou des "
+"départements."
+
+#: src/cybersecurity/attacks/social_engineering.md:18
+msgid "**• Pretexting**"
+msgstr "**• Pretexting**"
+
+#: src/cybersecurity/attacks/social_engineering.md:20
+msgid ""
+"Crafting a believable false identity or story to obtain information (e.g., "
+"pretending to be an IT technician)."
+msgstr ""
+"Créer une fausse identité ou une histoire crédible pour obtenir des "
+"informations (par ex., prétendre être un technicien informatique)."
+
+#: src/cybersecurity/attacks/social_engineering.md:22
+msgid "**• Baiting**"
+msgstr "**• Baiting**"
+
+#: src/cybersecurity/attacks/social_engineering.md:24
+msgid ""
+"Using something tempting (free downloads, USB drives, giveaways) to lure "
+"victims into a trap."
+msgstr ""
+"Utiliser quelque chose de tentant (téléchargements gratuits, clés USB, "
+"cadeaux) pour attirer les victimes dans un piège."
+
+#: src/cybersecurity/attacks/social_engineering.md:26
+msgid "**• Tailgating (Piggybacking)**"
+msgstr "**• Tailgating (Piggybacking)**"
+
+#: src/cybersecurity/attacks/social_engineering.md:28
+msgid ""
+"Physically following authorized personnel into restricted areas without "
+"valid access."
+msgstr ""
+"Suivre physiquement du personnel autorisé dans des zones restreintes sans "
+"accès valide."
+
+#: src/cybersecurity/attacks/social_engineering.md:32
+msgid "🏆 **Top 10 Biggest / Most Significant Social Engineering Incidents**"
+msgstr ""
+"🏆 **Top 10 des incidents d’ingénierie sociale les plus importants / "
+"significatifs**"
+
+#: src/cybersecurity/attacks/social_engineering.md:34
+msgid "High‑level, historical, and defensive-oriented."
+msgstr "De haut niveau, historiques et orientés sur la défense."
+
+#: src/cybersecurity/attacks/social_engineering.md:36
+msgid "1. Google & Facebook Invoice Scam (~$100M, 2013–2015)"
+msgstr "1. Escroquerie aux factures Google & Facebook (~100 M$, 2013–2015)"
+
+#: src/cybersecurity/attacks/social_engineering.md:38
+msgid ""
+"Attackers impersonated a legitimate hardware supplier and tricked accounting "
+"departments into sending over $100M in payments."
+msgstr ""
+"Les attaquants se sont fait passer pour un fournisseur de matériel légitime "
+"et ont trompé les départements comptables pour envoyer plus de 100 M$ de "
+"paiements."
+
+#: src/cybersecurity/attacks/social_engineering.md:40
+msgid "**2. RSA Security Breach (2011)**"
+msgstr "**2. Violation de sécurité RSA (2011)**"
+
+#: src/cybersecurity/attacks/social_engineering.md:42
+msgid ""
+"Phishing emails with a malicious Excel file compromised RSA’s SecurID "
+"system, impacting major corporations and government agencies."
+msgstr ""
+"Des emails de phishing contenant un fichier Excel malveillant ont compromis "
+"le système SecurID de RSA, affectant de grandes entreprises et des agences "
+"gouvernementales."
+
+#: src/cybersecurity/attacks/social_engineering.md:44
+msgid "**3. Ubiquiti Networks BEC Fraud ($40M, 2015)**"
+msgstr "**3. Fraude BEC chez Ubiquiti Networks (40 M$, 2015)**"
+
+#: src/cybersecurity/attacks/social_engineering.md:46
+msgid ""
+"Attackers impersonated company executives to authorize fraudulent financial "
+"transfers."
+msgstr ""
+"Les attaquants se sont fait passer pour des dirigeants de l’entreprise pour "
+"autoriser des transferts financiers frauduleux."
+
+#: src/cybersecurity/attacks/social_engineering.md:48
+msgid "**4. Target Breach Entry Point (2013)**"
+msgstr "**4. Point d’entrée de la violation Target (2013)**"
+
+#: src/cybersecurity/attacks/social_engineering.md:50
+msgid ""
+"Attackers stole vendor credentials through phishing, enabling access to "
+"Target’s network and exposing over 40 million payment cards."
+msgstr ""
+"Les attaquants ont volé les identifiants des fournisseurs via phishing, "
+"permettant l’accès au réseau de Target et exposant plus de 40 millions de "
+"cartes de paiement."
+
+#: src/cybersecurity/attacks/social_engineering.md:52
+msgid "**5. 2020 Twitter Admin Panel Breach**"
+msgstr "**5. Violation du panneau d’administration Twitter (2020)**"
+
+#: src/cybersecurity/attacks/social_engineering.md:54
+msgid ""
+"Teens social‑engineered Twitter employees, gaining control over internal "
+"tools and major verified accounts."
+msgstr ""
+"Des adolescents ont utilisé l’ingénierie sociale sur des employés de "
+"Twitter, prenant le contrôle des outils internes et de comptes vérifiés "
+"importants."
+
+#: src/cybersecurity/attacks/social_engineering.md:56
+msgid "**6. Sony Pictures Hack (2014)**"
+msgstr "**6. Piratage de Sony Pictures (2014)**"
+
+#: src/cybersecurity/attacks/social_engineering.md:58
+msgid ""
+"The attack began with phishing emails that led to credential theft, allowing "
+"hackers to steal massive amounts of data."
+msgstr ""
+"L’attaque a commencé par des emails de phishing conduisant au vol "
+"d’identifiants, permettant aux hackers de dérober d’énormes quantités de "
+"données."
+
+#: src/cybersecurity/attacks/social_engineering.md:60
+msgid "**7. Snapchat Payroll Scam (2016)**"
+msgstr "**7. Escroquerie sur la paie Snapchat (2016)**"
+
+#: src/cybersecurity/attacks/social_engineering.md:62
+msgid ""
+"A fake request from the CEO tricked HR into sending employee payroll "
+"information."
+msgstr ""
+"Une fausse demande du PDG a trompé les RH pour qu’elles envoient les "
+"informations sur la paie des employés."
+
+#: src/cybersecurity/attacks/social_engineering.md:64
+msgid "**8. FACC Aerospace CEO Fraud ($50M, 2016)**"
+msgstr "**8. Fraude du PDG chez FACC Aerospace (50 M$, 2016)**"
+
+#: src/cybersecurity/attacks/social_engineering.md:66
+msgid ""
+"An email impersonating the CEO caused the company to transfer tens of "
+"millions to criminals."
+msgstr ""
+"Un email se faisant passer pour le PDG a poussé l’entreprise à transférer "
+"des dizaines de millions à des criminels."
+
+#: src/cybersecurity/attacks/social_engineering.md:68
+msgid "**9. Google Docs Worm (2017)**"
+msgstr "**9. Ver Google Docs (2017)**"
+
+#: src/cybersecurity/attacks/social_engineering.md:70
+msgid ""
+"Millions received a fake Google Docs sharing message that attempted to gain "
+"access to their contacts and spread further."
+msgstr ""
+"Des millions de personnes ont reçu un faux message de partage Google Docs "
+"visant à accéder à leurs contacts et à se propager davantage."
+
+#: src/cybersecurity/attacks/social_engineering.md:72
+msgid "**10. Colonial Pipeline Initial Compromise (2021)**"
+msgstr "**10. Compromission initiale de Colonial Pipeline (2021)**"
+
+#: src/cybersecurity/attacks/social_engineering.md:74
+msgid ""
+"The ransomware event stemmed from a compromised user account—believed to "
+"have originated from prior phishing or password exposure."
+msgstr ""
+"L’événement de ransomware a découlé d’un compte utilisateur compromis, "
+"probablement issu d’un phishing antérieur ou d’une exposition de mot de "
+"passe."
+
+#: src/cybersecurity/attacks/social_engineering.md:78
+msgid "⭐ **Social Engineering “Must-Know” Techniques for Cybersecurity**"
+msgstr ""
+"⭐ **Techniques d’ingénierie sociale « à connaître » pour la cybersécurité**"
+
+#: src/cybersecurity/attacks/social_engineering.md:80
+msgid "**Common Tactics**"
+msgstr "**Tactiques courantes**"
+
+#: src/cybersecurity/attacks/social_engineering.md:82
+msgid "**Urgency Pressure** (“Your account will be closed in 24 hours!”)"
+msgstr "**Pression d’urgence** (« Votre compte sera fermé dans 24 heures ! »)"
+
+#: src/cybersecurity/attacks/social_engineering.md:84
+msgid "**Authority Impersonation** (CEO, IT support, law enforcement, vendors)"
+msgstr ""
+"**Imitation d’autorité** (PDG, support informatique, forces de l’ordre, "
+"fournisseurs)"
+
+#: src/cybersecurity/attacks/social_engineering.md:86
+msgid "**Fear and Threats** (“Your tax refund is frozen unless…”)"
+msgstr ""
+"**Peur et menaces** (« Votre remboursement d’impôt est gelé sauf si… »)"
+
+#: src/cybersecurity/attacks/social_engineering.md:88
+msgid "**Curiosity Hooks** (“Look at these photos of you!”)"
+msgstr "**Appâts à la curiosité** (« Regardez ces photos de vous ! »)"
+
+#: src/cybersecurity/attacks/social_engineering.md:90
+msgid "**Greed / Incentive Hooks** (“You’ve won a free iPhone!”)"
+msgstr ""
+"**Appâts à la cupidité / aux incitations** (« Vous avez gagné un iPhone "
+"gratuit ! »)"
+
+#: src/cybersecurity/attacks/social_engineering.md:93
+msgid "**Major Social Engineering Channels**"
+msgstr "**Principaux canaux d’ingénierie sociale**"
+
+#: src/cybersecurity/attacks/social_engineering.md:95
+msgid "Email (phishing, spear‑phishing)"
+msgstr "Email (phishing, spear‑phishing)"
+
+#: src/cybersecurity/attacks/social_engineering.md:96
+msgid "SMS (smishing)"
+msgstr "SMS (smishing)"
+
+#: src/cybersecurity/attacks/social_engineering.md:97
+msgid "Phone calls (vishing)"
+msgstr "Appels téléphoniques (vishing)"
+
+#: src/cybersecurity/attacks/social_engineering.md:98
+msgid "Social media impersonation"
+msgstr "Usurpation sur les réseaux sociaux"
+
+#: src/cybersecurity/attacks/social_engineering.md:99
+msgid "USB drop attacks"
+msgstr "Attaques par clé USB déposée"
+
+#: src/cybersecurity/attacks/social_engineering.md:100
+msgid "Physical access/social presence"
+msgstr "Accès physique / présence sociale"
+
+#: src/cybersecurity/attacks/social_engineering.md:102
+msgid "**Organizational-Level Threats**"
+msgstr "**Menaces au niveau organisationnel**"
+
+#: src/cybersecurity/attacks/social_engineering.md:104
+msgid ""
+"**Business Email Compromise (BEC)** Executive impersonation to authorize "
+"fraudulent transfers."
+msgstr ""
+"**Compromission de messagerie d’entreprise (BEC)** Imitation de dirigeants "
+"pour autoriser des transferts frauduleux."
+
+#: src/cybersecurity/attacks/social_engineering.md:106
+msgid ""
+"**Vendor/Third-Party Compromise** Attacking suppliers to bypass stronger "
+"internal defenses."
+msgstr ""
+"**Compromission de fournisseurs / tiers** Attaquer les fournisseurs pour "
+"contourner des défenses internes plus solides."
+
+#: src/cybersecurity/attacks/social_engineering.md:108
+msgid ""
+"**Insider Manipulation** Convincing employees to share credentials or system "
+"access."
+msgstr ""
+"**Manipulation interne** Convaincre les employés de partager des "
+"identifiants ou l’accès au système."
+
+#: src/cybersecurity/attacks/social_engineering.md:113
+msgid "**Phishing – Focuses & Variants**"
+msgstr "**Phishing – Axes et variantes**"
+
+#: src/cybersecurity/attacks/social_engineering.md:115
+msgid "**Major Phishing Types**"
+msgstr "**Principaux types de phishing**"
+
+#: src/cybersecurity/attacks/social_engineering.md:117
+msgid "**Standard Phishing** – Mass emails."
+msgstr "**Phishing standard** – Emails massifs."
+
+#: src/cybersecurity/attacks/social_engineering.md:118
+msgid "**Spear‑Phishing** – Targeted individuals."
+msgstr "**Spear‑Phishing** – Individus ciblés."
+
+#: src/cybersecurity/attacks/social_engineering.md:119
+msgid "**Whaling** – Targeting high-value executives."
+msgstr "**Whaling** – Cibler des cadres de haute valeur."
+
+#: src/cybersecurity/attacks/social_engineering.md:120
+msgid "**Smishing** – Fraudulent SMS messages."
+msgstr "**Smishing** – Messages SMS frauduleux."
+
+#: src/cybersecurity/attacks/social_engineering.md:121
+msgid "**Vishing** – Phone call–based social engineering."
+msgstr "**Vishing** – Ingénierie sociale par appels téléphoniques."
+
+#: src/cybersecurity/attacks/social_engineering.md:122
+msgid ""
+"**Clone Phishing** – Re-sending legitimate emails with malicious payloads."
+msgstr ""
+"**Clone Phishing** – Renvoi d’emails légitimes avec charges malveillantes."
+
+#: src/cybersecurity/attacks/social_engineering.md:124
+msgid "**Well-Known Phishing Examples**"
+msgstr "**Exemples célèbres de phishing**"
+
+#: src/cybersecurity/attacks/social_engineering.md:126
+msgid "Google & Facebook scam"
+msgstr "Escroquerie Google & Facebook"
+
+#: src/cybersecurity/attacks/social_engineering.md:127
+msgid "RSA breach"
+msgstr "Violation RSA"
+
+#: src/cybersecurity/attacks/social_engineering.md:128
+msgid "Ubiquiti BEC"
+msgstr "BEC chez Ubiquiti"
+
+#: src/cybersecurity/attacks/social_engineering.md:129
+msgid "Google Docs worm"
+msgstr "Ver Google Docs"
+
+#: src/cybersecurity/attacks/social_engineering.md:130
+msgid "PayPal/banking phishing kits (ongoing)"
+msgstr "Kits de phishing PayPal / bancaire (en cours)"
+
+#: src/cybersecurity/attacks/malware.md:1
+msgid "**Malware‑Based Attacks**"
+msgstr "**Attaques basées sur les malwares**"
+
+#: src/cybersecurity/attacks/malware.md:3
+msgid ""
+"Malware (**malicious software**) refers to any software intentionally "
+"created to damage systems, disrupt operations, steal data, or gain "
+"unauthorized access. Malware attacks remain one of the most common and "
+"destructive cybersecurity threats."
+msgstr ""
+"Les malwares (**logiciels malveillants**) désignent tout logiciel créé "
+"intentionnellement pour endommager les systèmes, perturber les opérations, "
+"voler des données ou obtenir un accès non autorisé. Les attaques par malware "
+"restent l’une des menaces de cybersécurité les plus courantes et "
+"destructrices."
+
+#: src/cybersecurity/attacks/malware.md:7
+msgid "**Types of Malware**"
+msgstr "**Types de malwares**"
+
+#: src/cybersecurity/attacks/malware.md:9
+msgid "**• Viruses**"
+msgstr "**• Virus**"
+
+#: src/cybersecurity/attacks/malware.md:11
+msgid ""
+"Malicious code that attaches to legitimate files and spreads when they are "
+"executed."
+msgstr ""
+"Code malveillant qui s’attache à des fichiers légitimes et se propage "
+"lorsqu’ils sont exécutés."
+
+#: src/cybersecurity/attacks/malware.md:13
+msgid "**• Worms**"
+msgstr "**• Vers**"
+
+#: src/cybersecurity/attacks/malware.md:15
+msgid ""
+"Self‑replicating malware that spreads automatically across networks without "
+"user action."
+msgstr ""
+"Malware auto-réplicatif qui se propage automatiquement à travers les réseaux "
+"sans action de l’utilisateur."
+
+#: src/cybersecurity/attacks/malware.md:17
+msgid "**• Trojans**"
+msgstr "**• Troyens**"
+
+#: src/cybersecurity/attacks/malware.md:19
+msgid ""
+"Malware disguised as a legitimate file or application to trick users into "
+"installing it."
+msgstr ""
+"Malware déguisé en fichier ou application légitime pour tromper les "
+"utilisateurs et les inciter à l’installer."
+
+#: src/cybersecurity/attacks/malware.md:21
+msgid "**• Ransomware**"
+msgstr "**• Ransomware**"
+
+#: src/cybersecurity/attacks/malware.md:23
+msgid ""
+"Malware that encrypts files or systems and demands payment for decryption."
+msgstr ""
+"Malware qui chiffre des fichiers ou des systèmes et exige un paiement pour "
+"les déchiffrer."
+
+#: src/cybersecurity/attacks/malware.md:25
+msgid "**• Spyware / Keyloggers**"
+msgstr "**• Spyware / Keyloggers**"
+
+#: src/cybersecurity/attacks/malware.md:27
+msgid ""
+"Software that covertly monitors user activity, capturing keystrokes or "
+"sensitive data."
+msgstr ""
+"Logiciel qui surveille discrètement l’activité des utilisateurs, capturant "
+"les frappes au clavier ou des données sensibles."
+
+#: src/cybersecurity/attacks/malware.md:29
+msgid "**• Adware**"
+msgstr "**• Adware**"
+
+#: src/cybersecurity/attacks/malware.md:31
+msgid ""
+"Software that displays unwanted ads or redirects users; sometimes used to "
+"track users or degrade system performance."
+msgstr ""
+"Logiciel affichant des publicités indésirables ou redirigeant les "
+"utilisateurs ; parfois utilisé pour suivre les utilisateurs ou dégrader les "
+"performances du système."
+
+#: src/cybersecurity/attacks/malware.md:35
+msgid "🏆 **Top 10 Most Significant Malware Attacks (All‑Time)**"
+msgstr ""
+"🏆 **Top 10 des attaques par malware les plus significatives (tous temps)**"
+
+#: src/cybersecurity/attacks/malware.md:37
+msgid "**1. WannaCry (2017)**"
+msgstr "**1. WannaCry (2017)**"
+
+#: src/cybersecurity/attacks/malware.md:39
+msgid ""
+"A global ransomware worm that infected 200,000+ systems in 150 countries, "
+"crippling hospitals, telecoms, and manufacturing."
+msgstr ""
+"Un ver ransomware mondial qui a infecté plus de 200 000 systèmes dans 150 "
+"pays, paralysant hôpitaux, télécoms et industries."
+
+#: src/cybersecurity/attacks/malware.md:41
+msgid "**2. NotPetya (2017)**"
+msgstr "**2. NotPetya (2017)**"
+
+#: src/cybersecurity/attacks/malware.md:43
+msgid ""
+"A destructive wiper disguised as ransomware, causing over **$10 billion** in "
+"damages worldwide. Spread through poisoned software updates."
+msgstr ""
+"Un wiper destructeur déguisé en ransomware, causant plus de **10 milliards "
+"de $** de dommages dans le monde. Propagé via des mises à jour logicielles "
+"compromises."
+
+#: src/cybersecurity/attacks/malware.md:45
+msgid "**3. Stuxnet (2010)**"
+msgstr "**3. Stuxnet (2010)**"
+
+#: src/cybersecurity/attacks/malware.md:47
+msgid ""
+"A sophisticated worm targeting industrial systems (ICS/SCADA). It physically "
+"damaged Iran’s nuclear centrifuges—considered a landmark cyber‑physical "
+"attack."
+msgstr ""
+"Un ver sophistiqué ciblant les systèmes industriels (ICS/SCADA). Il a "
+"endommagé physiquement les centrifugeuses nucléaires iraniennes — considéré "
+"comme une attaque cyber‑physique majeure."
+
+#: src/cybersecurity/attacks/malware.md:49
+msgid "**4. ILoveYou Virus (2000)**"
+msgstr "**4. Virus ILoveYou (2000)**"
+
+#: src/cybersecurity/attacks/malware.md:51
+msgid ""
+"One of the fastest‑spreading viruses ever, spreading via email and causing "
+"billions in losses."
+msgstr ""
+"Un des virus les plus rapides à se propager, se diffusant par email et "
+"causant des milliards de pertes."
+
+#: src/cybersecurity/attacks/malware.md:53
+msgid "**5. SQL Slammer Worm (2003)**"
+msgstr "**5. Ver SQL Slammer (2003)**"
+
+#: src/cybersecurity/attacks/malware.md:55
+msgid ""
+"A tiny worm (376 bytes!) that spread across the internet in minutes, "
+"knocking out ATMs, airlines, and emergency services."
+msgstr ""
+"Un petit ver (376 octets !) qui s’est propagé sur Internet en quelques "
+"minutes, paralysant distributeurs automatiques, compagnies aériennes et "
+"services d’urgence."
+
+#: src/cybersecurity/attacks/malware.md:57
+msgid "**6. Code Red (2001)**"
+msgstr "**6. Code Red (2001)**"
+
+#: src/cybersecurity/attacks/malware.md:59
+msgid ""
+"A worm targeting Windows servers, defacing websites and launching major DDoS "
+"attacks."
+msgstr ""
+"Un ver ciblant les serveurs Windows, défigurant des sites web et lançant "
+"d’importantes attaques DDoS."
+
+#: src/cybersecurity/attacks/malware.md:61
+msgid "**7. Zeus Trojan (2007–present)**"
+msgstr "**7. Troyen Zeus (2007–présent)**"
+
+#: src/cybersecurity/attacks/malware.md:63
+msgid ""
+"A banking trojan used for massive credential theft and online fraud. Spawned "
+"numerous variants."
+msgstr ""
+"Un troyen bancaire utilisé pour le vol massif d’identifiants et la fraude en "
+"ligne. A donné naissance à de nombreuses variantes."
+
+#: src/cybersecurity/attacks/malware.md:65
+msgid "**8. Conficker (2008)**"
+msgstr "**8. Conficker (2008)**"
+
+#: src/cybersecurity/attacks/malware.md:67
+msgid ""
+"Infected millions of systems through Windows vulnerabilities and weak "
+"passwords. A major wake‑up call for patching."
+msgstr ""
+"A infecté des millions de systèmes via des vulnérabilités Windows et des "
+"mots de passe faibles. Un signal fort pour l’importance des correctifs."
+
+#: src/cybersecurity/attacks/malware.md:69
+msgid "**9. CryptoLocker (2013)**"
+msgstr "**9. CryptoLocker (2013)**"
+
+#: src/cybersecurity/attacks/malware.md:71
+msgid ""
+"One of the first successful modern ransomware campaigns—popularized the “pay "
+"to decrypt” model still common today."
+msgstr ""
+"Une des premières campagnes de ransomware modernes réussies — popularisant "
+"le modèle « payer pour déchiffrer » encore courant aujourd’hui."
+
+#: src/cybersecurity/attacks/malware.md:73
+msgid "**10. Emotet (2014–2021, revived 2021)**"
+msgstr "**10. Emotet (2014–2021, relancé 2021)**"
+
+#: src/cybersecurity/attacks/malware.md:75
+msgid ""
+"A modular trojan and botnet used to deliver other malware (including "
+"ransomware) at global scale."
+msgstr ""
+"Un troyen modulaire et botnet utilisé pour livrer d’autres malwares (y "
+"compris ransomware) à l’échelle mondiale."
+
+#: src/cybersecurity/attacks/malware.md:79
+msgid "⭐ **Must‑Know Malware Families, Tools, and Strains (Awareness Only)**"
+msgstr ""
+"⭐ **Familles, outils et souches de malwares à connaître (pour "
+"sensibilisation uniquement)**"
+
+#: src/cybersecurity/attacks/malware.md:81
+msgid "_Listed to help defenders recognize threats — not for misuse._"
+msgstr ""
+"_Listé pour aider les défenseurs à reconnaître les menaces — pas pour un "
+"usage malveillant._"
+
+#: src/cybersecurity/attacks/malware.md:83
+msgid "**Major Ransomware Families**"
+msgstr "**Principales familles de ransomware**"
+
+#: src/cybersecurity/attacks/malware.md:85
+msgid "**WannaCry**"
+msgstr "**WannaCry**"
+
+#: src/cybersecurity/attacks/malware.md:86
+msgid "**Maze**"
+msgstr "**Maze**"
+
+#: src/cybersecurity/attacks/malware.md:87
+msgid "**Ryuk**"
+msgstr "**Ryuk**"
+
+#: src/cybersecurity/attacks/malware.md:88
+msgid "**LockerGoga**"
+msgstr "**LockerGoga**"
+
+#: src/cybersecurity/attacks/malware.md:89
+msgid "**Conti**"
+msgstr "**Conti**"
+
+#: src/cybersecurity/attacks/malware.md:90
+msgid "**LockBit**"
+msgstr "**LockBit**"
+
+#: src/cybersecurity/attacks/malware.md:92
+msgid "**Banking Trojans**"
+msgstr "**Troyens bancaires**"
+
+#: src/cybersecurity/attacks/malware.md:94
+msgid "**Zeus**"
+msgstr "**Zeus**"
+
+#: src/cybersecurity/attacks/malware.md:95
+msgid "**Emotet**"
+msgstr "**Emotet**"
+
+#: src/cybersecurity/attacks/malware.md:96
+msgid "**Dridex**"
+msgstr "**Dridex**"
+
+#: src/cybersecurity/attacks/malware.md:97
+msgid "**TrickBot**"
+msgstr "**TrickBot**"
+
+#: src/cybersecurity/attacks/malware.md:99
+msgid "**High‑Impact Worms**"
+msgstr "**Vers à fort impact**"
+
+#: src/cybersecurity/attacks/malware.md:101
+msgid "**Stuxnet**"
+msgstr "**Stuxnet**"
+
+#: src/cybersecurity/attacks/malware.md:102
+msgid "**SQL Slammer**"
+msgstr "**SQL Slammer**"
+
+#: src/cybersecurity/attacks/malware.md:103
+msgid "**Conficker**"
+msgstr "**Conficker**"
+
+#: src/cybersecurity/attacks/malware.md:104
+msgid "**Blaster**"
+msgstr "**Blaster**"
+
+#: src/cybersecurity/attacks/malware.md:106
+msgid "**Spyware / Surveillance Tools**"
+msgstr "**Spyware / Outils de surveillance**"
+
+#: src/cybersecurity/attacks/malware.md:108
+msgid "**Pegasus**"
+msgstr "**Pegasus**"
+
+#: src/cybersecurity/attacks/malware.md:109
+msgid "**FinSpy**"
+msgstr "**FinSpy**"
+
+#: src/cybersecurity/attacks/malware.md:110
+msgid "**DarkComet**"
+msgstr "**DarkComet**"
+
+#: src/cybersecurity/attacks/malware.md:112
+msgid "**Adware & Large‑Scale PUP Campaigns**"
+msgstr "**Adware & campagnes massives de PUP**"
+
+#: src/cybersecurity/attacks/malware.md:114
+msgid "**Fireball**"
+msgstr "**Fireball**"
+
+#: src/cybersecurity/attacks/malware.md:115
+msgid "**Gator/Claria**"
+msgstr "**Gator/Claria**"
+
+#: src/cybersecurity/attacks/malware.md:117
+msgid "**IoT & Botnet Malware**"
+msgstr "**Malwares IoT & Botnets**"
+
+#: src/cybersecurity/attacks/malware.md:119
+msgid "**Mirai** (used for massive DDoS attacks)"
+msgstr "**Mirai** (utilisé pour des attaques DDoS massives)"
+
+#: src/cybersecurity/attacks/malware.md:120
+msgid "**Emotet** (as a loader/botnet)"
+msgstr "**Emotet** (comme chargeur/botnet)"
+
+#: src/cybersecurity/attacks/malware.md:121
+msgid "**Necurs**"
+msgstr "**Necurs**"
+
+#: src/cybersecurity/attacks/malware.md:125
+msgid "🔍 **Mirai Attack Overview (Short Presentation Section)**"
+msgstr "🔍 **Aperçu de l’attaque Mirai (section courte de présentation)**"
+
+#: src/cybersecurity/attacks/malware.md:127
+msgid "**• What is Mirai?**"
+msgstr "**• Qu’est-ce que Mirai ?**"
+
+#: src/cybersecurity/attacks/malware.md:129
+msgid ""
+"Mirai is a malware strain that infects Internet‑of‑Things (IoT) devices such "
+"as cameras, DVRs, and routers."
+msgstr ""
+"Mirai est une souche de malware qui infecte les appareils Internet des "
+"objets (IoT) tels que caméras, DVR et routeurs."
+
+#: src/cybersecurity/attacks/malware.md:131
+msgid "**• How it Works**"
+msgstr "**• Comment ça fonctionne**"
+
+#: src/cybersecurity/attacks/malware.md:133
+msgid ""
+"It scans the internet for devices protected by default or weak credentials, "
+"infects them, and recruits them into a large botnet."
+msgstr ""
+"Il scanne Internet à la recherche d’appareils protégés par des identifiants "
+"par défaut ou faibles, les infecte et les recrute dans un vaste botnet."
+
+#: src/cybersecurity/attacks/malware.md:135
+msgid "**• Impact (2016)**"
+msgstr "**• Impact (2016)**"
+
+#: src/cybersecurity/attacks/malware.md:137
+msgid ""
+"Mirai executed one of the largest DDoS attacks in history against DNS "
+"provider Dyn, which caused outages for: Twitter • Netflix • Reddit • GitHub "
+"• Spotify • Airbnb and more."
+msgstr ""
+"Mirai a exécuté l’une des plus grandes attaques DDoS de l’histoire contre le "
+"fournisseur DNS Dyn, provoquant des interruptions pour : Twitter • Netflix • "
+"Reddit • GitHub • Spotify • Airbnb et autres."
+
+#: src/cybersecurity/attacks/malware.md:140
+msgid "**• Why It Matters Today**"
+msgstr "**• Pourquoi c’est important aujourd’hui**"
+
+#: src/cybersecurity/attacks/malware.md:142
+msgid ""
+"Mirai source code was publicly leaked, leading to many copycat botnets and "
+"highlighting the dangers of insecure IoT devices."
+msgstr ""
+"Le code source de Mirai a été divulgué publiquement, entraînant de nombreux "
+"botnets imitateurs et soulignant les dangers des appareils IoT non sécurisés."
+
+#: src/cybersecurity/attacks/malware.md:146
+msgid "🧩 **Advanced Malware Concepts**"
+msgstr "🧩 **Concepts avancés de malware**"
+
+#: src/cybersecurity/attacks/malware.md:148
+msgid "**• Fileless Malware**"
+msgstr "**• Malware sans fichier**"
+
+#: src/cybersecurity/attacks/malware.md:150
+msgid ""
+"Operates in memory without writing files to disk, making it difficult to "
+"detect."
+msgstr ""
+"Fonctionne en mémoire sans écrire de fichiers sur le disque, ce qui le rend "
+"difficile à détecter."
+
+#: src/cybersecurity/attacks/malware.md:152
+msgid "**• Polymorphic Malware**"
+msgstr "**• Malware polymorphe**"
+
+#: src/cybersecurity/attacks/malware.md:154
+msgid "Regularly changes its code signature to evade antivirus tools."
+msgstr ""
+"Change régulièrement sa signature de code pour échapper aux outils antivirus."
+
+#: src/cybersecurity/attacks/malware.md:156
+msgid "**• Rootkits**"
+msgstr "**• Rootkits**"
+
+#: src/cybersecurity/attacks/malware.md:158
+msgid "Hide malicious activity by modifying system-level components."
+msgstr "Cache l’activité malveillante en modifiant les composants du système."
+
+#: src/cybersecurity/attacks/malware.md:160
+msgid "**• Supply‑Chain Malware**"
+msgstr "**• Malware de la chaîne d’approvisionnement**"
+
+#: src/cybersecurity/attacks/malware.md:162
+msgid ""
+"Targets trusted providers or software updates to infiltrate many "
+"organizations at once."
+msgstr ""
+"Cible des fournisseurs de confiance ou des mises à jour logicielles pour "
+"infiltrer simultanément de nombreuses organisations."
+
+#: src/cybersecurity/attacks/malware.md:166
+msgid "🛡️ **Defensive Mindset: Key Malware Mitigation Concepts**"
+msgstr "🛡️ **Approche défensive : concepts clés de mitigation des malwares**"
+
+#: src/cybersecurity/attacks/malware.md:168
+msgid "Keep operating systems and software fully patched"
+msgstr "Maintenir les systèmes d’exploitation et logiciels entièrement à jour"
+
+#: src/cybersecurity/attacks/malware.md:169
+msgid "Use endpoint protection and behavioral monitoring"
+msgstr ""
+"Utiliser la protection des terminaux et la surveillance comportementale"
+
+#: src/cybersecurity/attacks/malware.md:170
+msgid "Apply least‑privilege principles"
+msgstr "Appliquer les principes du moindre privilège"
+
+#: src/cybersecurity/attacks/malware.md:171
+msgid "Maintain tested offline backups"
+msgstr "Maintenir des sauvegardes hors ligne testées"
+
+#: src/cybersecurity/attacks/malware.md:172
+msgid "Filter email attachments and block macros"
+msgstr "Filtrer les pièces jointes des emails et bloquer les macros"
+
+#: src/cybersecurity/attacks/malware.md:173
+msgid "Segment networks to prevent broad infection spread"
+msgstr ""
+"Segmenter les réseaux pour empêcher une propagation étendue des infections"
+
+#: src/cybersecurity/attacks/network.md:1
+msgid "**Network‑Based Attacks**"
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:3
+msgid ""
+"Network‑based attacks target **communication channels, protocols, and "
+"networked systems**, aiming to intercept, alter, disrupt, or gain "
+"unauthorized access to data flowing over a network."
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:7
+msgid "**Network-Based Attack Types**"
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:9
+msgid "**• Man‑in‑the‑Middle (MitM)**"
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:11
+msgid ""
+"Interception of communications between two parties to spy, modify, or inject "
+"data."
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:13
+msgid "**• Denial of Service (DoS)**"
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:15
+msgid "Overwhelming a system with traffic to make it unavailable."
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:17
+msgid "**• Distributed Denial of Service (DDoS)**"
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:19
+msgid "DoS at massive scale using many sources (botnets)."
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:21
+msgid "**• DNS Spoofing / Cache Poisoning**"
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:23
+msgid ""
+"Forging or manipulating DNS records to redirect users to malicious "
+"destinations."
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:25
+msgid "**• ARP Spoofing / ARP Poisoning**"
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:27
+msgid ""
+"Sending fake ARP messages to associate the attacker’s MAC with a victim’s IP."
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:29
+msgid "**• Traffic Sniffing / Packet Capture**"
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:31
+msgid ""
+"Capturing network packets to read passwords, tokens, or unencrypted data."
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:33
+msgid "**• IP Spoofing**"
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:35
+msgid ""
+"Forging source IP addresses to impersonate another device or hide identity."
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:37
+msgid "**• Port Scanning & Network Enumeration**"
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:39
+msgid "Reconnaissance to identify open ports, services, and vulnerabilities."
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:41
+msgid "**• Routing Attacks (BGP Hijacking)**"
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:43
+msgid ""
+"Manipulating internet routing to reroute or intercept large swaths of "
+"traffic."
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:45
+msgid "**• Session Hijacking**"
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:47
+msgid "Stealing session cookies or tokens to take over active sessions."
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:51
+msgid "🏆 **Top 10 Biggest / Most Significant Network‑Based Attacks**"
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:53
+msgid "**1. Mirai Botnet (2016)**"
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:55
+msgid ""
+"A massive IoT botnet launched one of the largest DDoS attacks ever, taking "
+"down major services like Dyn, causing outages for Twitter, Netflix, Reddit, "
+"and more."
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:57
+msgid "**2. GitHub DDoS Attack (2018)**"
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:59
+msgid ""
+"GitHub faced a record‑breaking 1.35 Tbps DDoS attack using memcached "
+"reflection."
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:61
+msgid "**3. Estonia Nation‑State DDoS Attacks (2007)**"
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:63
+msgid ""
+"A wave of political DDoS attacks shut down government websites, banks, and "
+"news agencies."
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:65
+msgid "**4. BGP Hijack of YouTube (2008)**"
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:67
+msgid ""
+"Pakistan Telecom accidentally hijacked YouTube’s BGP route, taking YouTube "
+"offline globally."
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:69
+msgid "**5. Google China (2009 – Operation Aurora)**"
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:71
+msgid ""
+"Attackers used network intrusion + zero‑days to penetrate Google and other "
+"major companies."
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:73
+msgid "**6. Target Data Breach – Network Lateral Movement (2013)**"
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:75
+msgid ""
+"After phishing a vendor, attackers pivoted across the internal network to "
+"POS systems."
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:77
+msgid "**7. SolarWinds Supply‑Chain Breach (2020)**"
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:79
+msgid ""
+"Attackers infiltrated SolarWinds' network, compromising downstream networks "
+"worldwide."
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:81
+msgid "**8. Cloudflare BGP Routing Incident (2019)**"
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:83
+msgid ""
+"Misconfigured BGP routes sent global Cloudflare traffic through a small ISP, "
+"causing massive outages."
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:85
+msgid "**9. Marriott / Starwood Breach (2018)**"
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:87
+msgid ""
+"Attackers leveraged long‑term network access to steal data of 500 million "
+"guests."
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:89
+msgid "**10. Colonial Pipeline (2021)**"
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:91
+msgid ""
+"Though initiated by credential misuse, the impact was due to network "
+"segmentation failures and lateral movement risks."
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:95
+msgid "⭐ **Network Attack “Must-Know” Techniques for Cybersecurity**"
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:97
+msgid "**Core Network Threat Models**"
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:99
+msgid "**Spoofing** (IP, DNS, ARP)"
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:100
+msgid "**Sniffing** (packet capture, passive recon)"
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:101
+msgid "**Injection & Manipulation** (MitM, rogue AP)"
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:102
+msgid "**Reflection & Amplification** (memcached, NTP, DNS amplifiers)"
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:103
+msgid "**Lateral Movement** across subnets"
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:104
+msgid "**Reconnaissance** (Nmap scans, service fingerprinting)"
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:106
+msgid "**Key Attack Surfaces**"
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:108
+msgid "Corporate networks"
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:109
+msgid "Public Wi‑Fi"
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:110
+msgid "IoT devices"
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:111
+msgid "VPN concentrators"
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:112
+msgid "Firewalls & routers"
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:113
+msgid "DNS resolvers"
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:114
+msgid "Cloud environments"
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:118
+msgid "**Essential Tools Commonly Used (Defensive Awareness)**"
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:120
+msgid "_Listed for professional education and defensive understanding only._"
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:122
+msgid "**Network Recon & Scanning**"
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:124
+msgid "**Nmap / Zenmap** – Port scanning and service detection"
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:125
+msgid "**Masscan** – Internet‑scale scanning"
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:126
+msgid "**Shodan** – Internet-exposed devices search engine"
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:128
+msgid "**Packet Capture & Analysis**"
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:130
+msgid "**Wireshark** – Packet analysis"
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:131
+msgid "**tcpdump** – CLI network capture"
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:133
+msgid "**MitM & Spoofing (Defensive Study)**"
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:135
+msgid "**Ettercap** – ARP poisoning & sniffing"
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:136
+msgid "**Bettercap** – Advanced network interception tool"
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:138
+msgid "**DDoS / Traffic Simulation (Legitimate Testing Only)**"
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:140
+msgid "**LOIC / HOIC** – Historical tools used for stress testing"
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:141
+msgid "**Hping3** – Packet crafting and testing"
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:143
+msgid "**Network Monitoring / Detection**"
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:145
+msgid "**Suricata** – IDS/IPS"
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:146
+msgid "**Snort** – Network intrusion detection"
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:147
+msgid "**Zeek (Bro)** – Network visibility and behavioral analysis"
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:151
+msgid "🧩 **Advanced Network Attack Categories**"
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:153
+msgid "**Wireless Attacks**"
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:155
+msgid "Evil Twin access points"
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:156
+msgid "Deauthentication attacks"
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:157
+msgid "WPA handshake capture"
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:159
+msgid "**Network Access Control Evasion**"
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:161
+msgid "MAC spoofing"
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:162
+msgid "VLAN hopping"
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:164
+msgid "**Cloud & Hybrid Network Exploitation**"
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:166
+msgid "Misconfigured security groups"
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:167
+msgid "Compromised API endpoints"
+msgstr ""
+
+#: src/cybersecurity/attacks/network.md:168
+msgid "Role assumption / privilege escalation"
+msgstr ""
+
+#: src/cybersecurity/attacks/app-level.md:1
+msgid "**Application‑Level Attacks**"
+msgstr "**Attaques au niveau des applications**"
+
+#: src/cybersecurity/attacks/app-level.md:3
+msgid ""
+"Application‑level attacks target the software layer — websites, APIs, mobile "
+"apps, and backend services — exploiting flaws in logic, authentication, or "
+"input handling."
+msgstr ""
+"Les attaques au niveau des applications ciblent la couche logicielle — sites web, API, applications mobiles et services back-end — en exploitant des failles de logique, d’authentification ou de gestion des entrées."
+
+#: src/cybersecurity/attacks/app-level.md:7
+msgid "**Common Application‑Level Attack Types**"
+msgstr "**Types courants d’attaques au niveau des applications**"
+
+#: src/cybersecurity/attacks/app-level.md:9
+msgid "**1. SQL Injection (SQLi)**"
+msgstr "**1. Injection SQL (SQLi)**"
+
+#: src/cybersecurity/attacks/app-level.md:11
+msgid ""
+"Attackers inject malicious SQL queries to read, modify, or delete database "
+"data."
+msgstr ""
+"Les attaquants injectent des requêtes SQL malveillantes pour lire, modifier ou supprimer des données dans la base de données."
+
+#: src/cybersecurity/attacks/app-level.md:13
+msgid "**2. Cross‑Site Scripting (XSS)**"
+msgstr "**2. Cross-Site Scripting (XSS)**"
+
+#: src/cybersecurity/attacks/app-level.md:15
+msgid ""
+"Malicious scripts are injected into web pages, allowing attackers to steal "
+"cookies, session tokens, or perform actions as the victim."
+msgstr ""
+"Des scripts malveillants sont injectés dans les pages web, permettant aux attaquants de voler des cookies, des jetons de session ou d’agir au nom de la victime."
+
+#: src/cybersecurity/attacks/app-level.md:17
+msgid "**3. Cross‑Site Request Forgery (CSRF)**"
+msgstr "**3. Cross-Site Request Forgery (CSRF)**"
+
+#: src/cybersecurity/attacks/app-level.md:19
+msgid ""
+"Tricks a user’s browser into performing unintended actions (e.g., changing "
+"passwords, sending money)."
+msgstr ""
+"Amène le navigateur d’un utilisateur à effectuer des actions non prévues (par exemple, changer des mots de passe, envoyer de l’argent)."
+
+#: src/cybersecurity/attacks/app-level.md:21
+msgid "**4. Remote Code Execution (RCE)**"
+msgstr "**4. Exécution de code à distance (RCE)**"
+
+#: src/cybersecurity/attacks/app-level.md:23
+msgid ""
+"Exploitation that allows an attacker to run arbitrary code on the target "
+"server."
+msgstr ""
+"Exploitation permettant à un attaquant d’exécuter du code arbitraire sur le serveur cible."
+
+#: src/cybersecurity/attacks/app-level.md:25
+msgid "**5. Insecure Deserialization**"
+msgstr "**5. Désérialisation non sécurisée**"
+
+#: src/cybersecurity/attacks/app-level.md:27
+msgid ""
+"Tampered serialized objects lead to privilege escalation or code execution."
+msgstr ""
+"Des objets sérialisés altérés peuvent entraîner une élévation de privilèges ou l’exécution de code."
+
+#: src/cybersecurity/attacks/app-level.md:29
+msgid "**6. Directory Traversal**"
+msgstr "**6. Traversée de répertoires**"
+
+#: src/cybersecurity/attacks/app-level.md:31
+msgid ""
+"Attackers access files outside the intended web directory using path "
+"manipulation (`../`)."
+msgstr ""
+"Les attaquants accèdent à des fichiers en dehors du répertoire web prévu en manipulant les chemins (`../`)."
+
+#: src/cybersecurity/attacks/app-level.md:33
+msgid "**7. Server‑Side Request Forgery (SSRF)**"
+msgstr "**7. Server-Side Request Forgery (SSRF)**"
+
+#: src/cybersecurity/attacks/app-level.md:35
+msgid ""
+"The application is tricked into making network requests, often accessing "
+"internal systems."
+msgstr ""
+"L’application est trompée pour effectuer des requêtes réseau, accédant souvent à des systèmes internes."
+
+#: src/cybersecurity/attacks/app-level.md:37
+msgid "**8. Authentication & Session Attacks**"
+msgstr "**8. Attaques sur l’authentification et les sessions**"
+
+#: src/cybersecurity/attacks/app-level.md:39
+msgid ""
+"Weak session tokens, stolen cookies, or flawed login logic allow "
+"unauthorized access."
+msgstr ""
+"Des jetons de session faibles, des cookies volés ou une logique de connexion défaillante permettent un accès non autorisé."
+
+#: src/cybersecurity/attacks/app-level.md:43
+msgid "**Major Real‑World Application Attacks (Top 5)**"
+msgstr "**Principales attaques réelles au niveau des applications (Top 5)**"
+
+#: src/cybersecurity/attacks/app-level.md:45
+msgid "**1. Equifax Breach (2017)**"
+msgstr "**1. Violation de sécurité Equifax (2017)**"
+
+#: src/cybersecurity/attacks/app-level.md:47
+msgid ""
+"A vulnerability in Apache Struts led to massive data exposure (SSNs, "
+"birthdates, etc.)."
+msgstr ""
+"Une vulnérabilité dans Apache Struts a conduit à une exposition massive de données (numéros de sécurité sociale, dates de naissance, etc.)."
+
+#: src/cybersecurity/attacks/app-level.md:49
+msgid "**2. Log4Shell (2021)**"
+msgstr "**2. Log4Shell (2021)**"
+
+#: src/cybersecurity/attacks/app-level.md:51
+msgid ""
+"A simple logging string triggered remote code execution in millions of Java "
+"applications."
+msgstr ""
+"Une simple chaîne de journalisation a déclenché l’exécution de code à distance dans des millions d’applications Java."
+
+#: src/cybersecurity/attacks/app-level.md:53
+msgid "**3. Heartbleed (2014)**"
+msgstr "**3. Heartbleed (2014)**"
+
+#: src/cybersecurity/attacks/app-level.md:55
+msgid ""
+"OpenSSL bug allowed attackers to read memory, exposing passwords and private "
+"keys."
+msgstr ""
+"Un bug dans OpenSSL a permis aux attaquants de lire la mémoire, exposant mots de passe et clés privées."
+
+#: src/cybersecurity/attacks/app-level.md:57
+msgid "**4. Uber API Breach (2016)**"
+msgstr "**4. Violation de l’API Uber (2016)**"
+
+#: src/cybersecurity/attacks/app-level.md:59
+msgid ""
+"Hard‑coded credentials in source code let attackers access customer/driver "
+"data."
+msgstr ""
+"Des identifiants codés en dur dans le code source ont permis aux attaquants d’accéder aux données des clients et conducteurs."
+
+#: src/cybersecurity/attacks/app-level.md:61
+msgid "**5. WordPress Plugin Vulnerabilities (Ongoing)**"
+msgstr "**5. Vulnérabilités des plugins WordPress (en cours)**"
+
+#: src/cybersecurity/attacks/app-level.md:63
+msgid ""
+"Thousands of sites compromised yearly due to insecure or outdated plugins."
+msgstr ""
+"Des milliers de sites sont compromis chaque année en raison de plugins non sécurisés ou obsolètes."
+
+#: src/cybersecurity/attacks/app-level.md:67
+msgid "**Common Tools Used in App‑Level Attacks**"
+msgstr "**Outils courants utilisés dans les attaques au niveau des applications**"
+
+#: src/cybersecurity/attacks/app-level.md:69
+msgid "**Burp Suite** – Proxy for intercepting and modifying web traffic"
+msgstr "**Burp Suite** – Proxy pour intercepter et modifier le trafic web"
+
+#: src/cybersecurity/attacks/app-level.md:70
+msgid "**OWASP ZAP** – Open‑source web app scanner"
+msgstr "**OWASP ZAP** – Scanner open-source pour applications web"
+
+#: src/cybersecurity/attacks/app-level.md:71
+msgid "**sqlmap** – Automated SQL injection tool"
+msgstr "**sqlmap** – Outil automatisé d’injection SQL"
+
+#: src/cybersecurity/attacks/app-level.md:72
+msgid "**DirBuster / gobuster** – Directory and file enumeration"
+msgstr "**DirBuster / gobuster** – Énumération de répertoires et fichiers"
+
+#: src/cybersecurity/attacks/app-level.md:73
+msgid "**Metasploit** – Framework for exploiting known vulnerabilities"
+msgstr "**Metasploit** – Framework pour exploiter des vulnérabilités connues"
+
+#: src/cybersecurity/attacks/app-level.md:74
+msgid "**Postman / curl** – API testing and fuzzing"
+msgstr "**Postman / curl** – Test et fuzzing d’API"
+
+#: src/cybersecurity/tools/ss.md:2
+msgid "ss is the new command of netstat, you can use it as so:"
+msgstr ""
+
+#: src/radio_amateur/presentation.md:1
 msgid "Introduction to Amateur Radio"
 msgstr "Introduction au radio amateurisme"
 
-#: src/radio_amateur/presentation.md:5
+#: src/radio_amateur/presentation.md:3
 msgid ""
 "To prepare for the amateur radio exam, I used the \"Le Radioamateur\" 4th "
 "edition book."
@@ -102,194 +1561,104 @@ msgstr ""
 "Pour préparer l'examen de radio amateur, j'ai pu prendre le radioamateur "
 "4ème édition."
 
-#: src/radio_amateur/presentation.md:10
+#: src/radio_amateur/presentation.md:8
 msgid "**Le Radioamateur (4th edition)**"
 msgstr "**Le Radioamateur (4ème edition)**"
 
-#: src/radio_amateur/electrical_circuits/exercises.md:5
+#: src/radio_amateur/electrical_circuits/exercises.md:3
 msgid "Here a list of exercices:"
 msgstr "Voici une liste d'exercices:"
 
-#: src/radio_amateur/electrical_circuits/exercises.md:7
+#: src/radio_amateur/electrical_circuits/exercises.md:5
 #, fuzzy
 msgid "Exercise 1:"
 msgstr "Exercice 1:"
 
-#: src/radio_amateur/electrical_circuits/exercises.md:9
-#: src/radio_amateur/electrical_circuits/exercise1.md:7
+#: src/radio_amateur/electrical_circuits/exercises.md:7
+#: src/radio_amateur/electrical_circuits/exercise1.md:5
 #, fuzzy
 msgid "![schéma1](/images/chapter1/demo1/demo1.png)"
 msgstr "![schéma1](images/chapter1/demo1/demo1.png)"
 
-#: src/radio_amateur/electrical_circuits/exercises.md:11
+#: src/radio_amateur/electrical_circuits/exercises.md:9
 #, fuzzy
 msgid "Exercise 2:"
 msgstr "Exercice 2:"
 
-#: src/radio_amateur/electrical_circuits/exercise1.md:5
+#: src/radio_amateur/electrical_circuits/exercise1.md:3
 msgid "Here is a circuit to simplify."
 msgstr "Voici un circuit à simplifier."
 
-#: src/radio_amateur/electrical_circuits/exercise1.md:9
+#: src/radio_amateur/electrical_circuits/exercise1.md:7
 msgid "We can first simplify R2,R3,R4."
 msgstr "On peut simplifier en premier R2, R3 et R4"
 
-#: src/radio_amateur/electrical_circuits/exercise1.md:11
+#: src/radio_amateur/electrical_circuits/exercise1.md:9
 msgid "We can simplify this part of the scheme, let's do it."
 msgstr "On peut simplifier cette partie du schéma."
 
-#: src/radio_amateur/electrical_circuits/exercise1.md:13
+#: src/radio_amateur/electrical_circuits/exercise1.md:11
+#, fuzzy
 msgid ""
-"![schéma1](/images/chapter1/demo2/demo2.png) <span class=\"katex-"
-"display\"><span class=\"katex\"><span class=\"katex-html\" aria-"
-"hidden=\"true\"><span class=\"base\"><span class=\"strut\" "
-"style=\"height:2.263em;vertical-align:-0.836em;\"></span><span "
-"class=\"mord\"><span class=\"mord\"><span class=\"mord mathbf\">R</"
-"span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span "
-"class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.1611em;\"><span "
-"style=\"top:-2.55em;margin-left:0em;margin-right:0.05em;\"><span "
-"class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-"
-"size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mathbf "
-"mtight\">eq</span></span></span></span></span><span class=\"vlist-s\">​</"
-"span></span><span class=\"vlist-r\"><span class=\"vlist\" "
-"style=\"height:0.2861em;\"><span></span></span></span></span></span></"
-"span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span "
-"class=\"mrel\">=</span><span class=\"mspace\" style=\"margin-right:0.2778em;"
-"\"></span><span class=\"mord\"><span class=\"mopen nulldelimiter\"></"
-"span><span class=\"mfrac\"><span class=\"vlist-t vlist-t2\"><span "
-"class=\"vlist-r\"><span class=\"vlist\" style=\"height:1.427em;\"><span "
-"style=\"top:-2.314em;\"><span class=\"pstrut\" style=\"height:3em;\"></"
-"span><span class=\"mord\"><span class=\"mord\"><span class=\"mord "
-"mathbf\">R</span><span class=\"msupsub\"><span class=\"vlist-t vlist-"
-"t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.3011em;"
-"\"><span style=\"top:-2.55em;margin-left:0em;margin-right:0.05em;\"><span "
-"class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-"
-"size6 size3 mtight\"><span class=\"mord mathbf mtight\">2</span></span></"
-"span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-"
-"r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></"
-"span></span></span></span><span class=\"mspace\" style=\"margin-"
-"right:0.2222em;\"></span><span class=\"mbin\">+</span><span class=\"mspace\" "
-"style=\"margin-right:0.2222em;\"></span><span class=\"mord\"><span "
-"class=\"mord mathbf\">R</span><span class=\"msupsub\"><span class=\"vlist-t "
-"vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" "
-"style=\"height:0.3011em;\"><span style=\"top:-2.55em;margin-left:0em;margin-"
-"right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span "
-"class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mathbf "
-"mtight\">3</span></span></span></span><span class=\"vlist-s\">​</span></"
-"span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;"
-"\"><span></span></span></span></span></span></span><span class=\"mspace\" "
-"style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">+</span><span "
-"class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span "
-"class=\"mord\"><span class=\"mord mathbf\">R</span><span "
-"class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-"
-"r\"><span class=\"vlist\" style=\"height:0.3011em;\"><span "
-"style=\"top:-2.55em;margin-left:0em;margin-right:0.05em;\"><span "
-"class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-"
-"size6 size3 mtight\"><span class=\"mord mathbf mtight\">4</span></span></"
-"span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-"
-"r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></"
-"span></span></span></span></span></span><span style=\"top:-3.23em;\"><span "
-"class=\"pstrut\" style=\"height:3em;\"></span><span class=\"frac-line\" "
-"style=\"border-bottom-width:0.04em;\"></span></span><span "
-"style=\"top:-3.677em;\"><span class=\"pstrut\" style=\"height:3em;\"></"
-"span><span class=\"mord\"><span class=\"mord\"><span class=\"mord "
-"mathbf\">R</span><span class=\"msupsub\"><span class=\"vlist-t vlist-"
-"t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.3011em;"
-"\"><span style=\"top:-2.55em;margin-left:0em;margin-right:0.05em;\"><span "
-"class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-"
-"size6 size3 mtight\"><span class=\"mord mathbf mtight\">2</span></span></"
-"span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-"
-"r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></"
-"span></span></span></span><span class=\"mopen\">(</span><span "
-"class=\"mord\"><span class=\"mord mathbf\">R</span><span "
-"class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-"
-"r\"><span class=\"vlist\" style=\"height:0.3011em;\"><span "
-"style=\"top:-2.55em;margin-left:0em;margin-right:0.05em;\"><span "
-"class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-"
-"size6 size3 mtight\"><span class=\"mord mathbf mtight\">3</span></span></"
-"span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-"
-"r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></"
-"span></span></span></span><span class=\"mspace\" style=\"margin-"
-"right:0.2222em;\"></span><span class=\"mbin\">+</span><span class=\"mspace\" "
-"style=\"margin-right:0.2222em;\"></span><span class=\"mord\"><span "
-"class=\"mord mathbf\">R</span><span class=\"msupsub\"><span class=\"vlist-t "
-"vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" "
-"style=\"height:0.3011em;\"><span style=\"top:-2.55em;margin-left:0em;margin-"
-"right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span "
-"class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mathbf "
-"mtight\">4</span></span></span></span><span class=\"vlist-s\">​</span></"
-"span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;"
-"\"><span></span></span></span></span></span></span><span class=\"mclose\">)</"
-"span></span></span></span><span class=\"vlist-s\">​</span></span><span "
-"class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.836em;\"><span></"
-"span></span></span></span></span><span class=\"mclose nulldelimiter\"></"
-"span></span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></"
-"span><span class=\"mrel\">=</span><span class=\"mspace\" style=\"margin-"
-"right:0.2778em;\"></span><span class=\"mord mathbf\">1.1</span><span "
-"class=\"mspace nobreak\"> </span><span class=\"mord mathbf\">Ω</span></"
-"span></span></span></span></span>"
+"![schéma1](/images/chapter1/demo2/demo2.png) $$ \\\\mathbf{ R\\_{eq} = "
+"\\frac{R_2 (R_3 + R_4)}{R_2 + R_3 + R_4} = 1.1~\\\\Omega } $$"
 msgstr ""
+"On peut simplifier les schéma. ![schéma1](/images/chapter1/demo2/demo2.png) $"
+"$ \\\\mathbf{ R\\_{eq} = \\frac{R_2 (R_3 + R_4)}{R_2 + R_3 + R_4} = 1.1~\\"
+"\\Omega } $$ ![schéma1](/images/chapter1/demo3/demo3.png)"
 
-#: src/radio_amateur/electrical_circuits/exercise1.md:16
+#: src/radio_amateur/electrical_circuits/exercise1.md:19
 #, fuzzy
 msgid "![schéma1](/images/chapter1/demo3/demo3.png)"
 msgstr "![schéma1](images/chapter1/demo1/demo1.png)"
 
-#: src/radio_amateur/electrical_circuits/exercise1.md:18
+#: src/radio_amateur/electrical_circuits/exercise1.md:21
 msgid "And then easy peasy"
 msgstr "Plus qu'à finir..."
 
-#: src/radio_amateur/electrical_circuits/exercise1.md:20
+#: src/radio_amateur/electrical_circuits/exercise1.md:23
 #, fuzzy
 msgid "![schéma1](/images/chapter1/demo4/demo4.png)"
 msgstr "![schéma1](images/chapter1/demo1/demo1.png)"
 
-#: src/tools/CookieCutter.md:5
+#: src/tools/CookieCutter.md:3
 msgid ""
 "Here is an [example](https://gitlab.com/Ripitchip/simple-python-"
 "cookiecutter) of a cookieCutter project."
 msgstr ""
-"Voici un [exemple](https://gitlab.com/Ripitchip/simple-python-"
-"cookiecutter) d'un projet cookieCutter"
+"Voici un [exemple](https://gitlab.com/Ripitchip/simple-python-cookiecutter) "
+"d'un projet cookieCutter"
 
-#: src/tools/CookieCutter.md:7
+#: src/tools/CookieCutter.md:5
 msgid "It is a pretty good tool to create template. !TODO"
 msgstr "C'est un outil très pratique pour la création de template."
 
-#: src/tools/LazyGit.md:3
+#: src/tools/LazyGit.md:1
 msgid "Lazygit"
 msgstr "Lazygit"
 
-#: src/leetcode/presentation.md:3
+#: src/leetcode/presentation.md:1
 #, fuzzy
 msgid "Presentation of LeetCode"
 msgstr "Présentation"
 
-#: src/leetcode/arrays&hashing.md:3
+#: src/leetcode/arrays&hashing.md:1
 msgid "Arrays and hashing"
 msgstr "Arrays et hashing"
 
-#: src/leetcode/arrays&hashing.md:7
+#: src/leetcode/arrays&hashing.md:5
 msgid "[Contains Duplicate](./exercises/217.md)"
 msgstr "[Contains Duplicate](./exercises/217.md)"
 
-#: src/leetcode/exercises/217.md:3
+#: src/leetcode/exercises/217.md:1
 msgid "217. Contains Duplicate"
 msgstr "217. Contains Duplicate"
 
-#: src/leetcode/exercises/217.md:15
-msgid "<unordered_set>"
-msgstr ""
-
-#: src/leetcode/exercises/217.md:16 src/leetcode/exercises/242.md:15
-msgid "<vector>"
-msgstr ""
-
-#: src/leetcode/exercises/217.md:37 src/leetcode/exercises/242.md:41
+#: src/leetcode/exercises/217.md:35 src/leetcode/exercises/242.md:39
 msgid "!TODO"
 msgstr ""
 
-#: src/leetcode/exercises/217.md:46
+#: src/leetcode/exercises/217.md:44
 msgid ""
 "\"\"\"\n"
 "        :type nums: List[int]\n"
@@ -297,41 +1666,41 @@ msgid ""
 "        \"\"\""
 msgstr ""
 
-#: src/leetcode/exercises/217.md:53
+#: src/leetcode/exercises/217.md:51
 msgid ""
 "\\-> Castt a set on list is O(n) and a len is O(1) and len(nums) is O(n) in "
 "time \\-> In memory it doesn't allocate anything."
 msgstr ""
 
-#: src/leetcode/exercises/242.md:3
+#: src/leetcode/exercises/242.md:1
 msgid "242. Valid Anagram"
 msgstr ""
 
-#: src/leetcode/exercises/242.md:14
+#: src/leetcode/exercises/242.md:12
 msgid "<string>"
 msgstr ""
 
-#: src/leetcode/exercises/242.md:22 src/leetcode/exercises/242.md:25
+#: src/leetcode/exercises/242.md:20 src/leetcode/exercises/242.md:23
 msgid "'a'"
 msgstr ""
 
-#: src/leetcode/exercises/242.md:50
+#: src/leetcode/exercises/242.md:48
 msgid "''"
 msgstr ""
 
-#: src/leetcode/exercises/242.md:50
+#: src/leetcode/exercises/242.md:48
 msgid "\"\""
 msgstr ""
 
-#: src/leetcode/exercises/242.md:52
+#: src/leetcode/exercises/242.md:50
 msgid "This is far better:"
 msgstr ""
 
-#: src/leetcode/exercises/242.md:58 src/leetcode/exercises/242.md:60
+#: src/leetcode/exercises/242.md:56 src/leetcode/exercises/242.md:58
 msgid "\"a\""
 msgstr ""
 
-#: src/leetcode/exercises/242.md:63
+#: src/leetcode/exercises/242.md:61
 msgid "\\-> Easy solution but not efficient at all."
 msgstr ""
 
@@ -342,16 +1711,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Exercice 1"
 #~ msgstr "Exercices"
-
-#~ msgid ""
-#~ "We can simplify this part of the scheme, let's do it. ![schéma1](/images/"
-#~ "chapter1/demo2/demo2.png) $$ \\\\mathbf{ R\\_{eq} = \\frac{R_2 (R_3 + "
-#~ "R_4)}{R_2 + R_3 + R_4} = 1.1~\\\\Omega } $$ ![schéma1](/images/chapter1/"
-#~ "demo3/demo3.png)"
-#~ msgstr ""
-#~ "On peut simplifier les schéma. ![schéma1](/images/chapter1/demo2/"
-#~ "demo2.png) $$ \\\\mathbf{ R\\_{eq} = \\frac{R_2 (R_3 + R_4)}{R_2 + R_3 + "
-#~ "R_4} = 1.1~\\\\Omega } $$ ![schéma1](/images/chapter1/demo3/demo3.png)"
 
 #, fuzzy
 #~ msgid "Exercice 2"
