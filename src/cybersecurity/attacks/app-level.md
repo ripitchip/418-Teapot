@@ -38,6 +38,10 @@ The application is tricked into making network requests, often accessing interna
 
 Weak session tokens, stolen cookies, or flawed login logic allow unauthorized access.
 
+## **9. Insecure Direct Object Reference (IDOR)**
+
+Occurs when applications expose internal object identifiers (like user IDs or filenames) without proper authorization checks, allowing attackers to access or modify other users’ data.
+
 ---
 
 # **Major Real‑World Application Attacks (Top 5)**

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 418 I am a Teapot\n"
-"POT-Creation-Date: 2025-12-05T18:51:58Z\n"
+"POT-Creation-Date: 2025-12-06T16:50:35Z\n"
 "PO-Revision-Date: 2025-10-31 14:03+0000\n"
 "Last-Translator:  <vscode@fb22821291d2>\n"
 "Language-Team: French <traduc@traduc.org>\n"
@@ -56,64 +56,72 @@ msgstr ""
 msgid "Cybersecurity tools"
 msgstr "Cybersecurity tools"
 
-#: src/SUMMARY.md:16 src/cybersecurity/tools/ss.md:1
+#: src/SUMMARY.md:16 src/cybersecurity/tools/zap/zap.md:1
+msgid "zap"
+msgstr "zap"
+
+#: src/SUMMARY.md:17
+msgid "zap for idor"
+msgstr "ZAP pour une attaque IDOR"
+
+#: src/SUMMARY.md:18 src/cybersecurity/tools/ss.md:1
 msgid "ss"
 msgstr "ss"
 
-#: src/SUMMARY.md:18
+#: src/SUMMARY.md:20
 msgid "Radio Amateur"
 msgstr "Radio Amateur"
 
-#: src/SUMMARY.md:20
+#: src/SUMMARY.md:22
 msgid "Presentation"
 msgstr "Présentation"
 
-#: src/SUMMARY.md:21 src/SUMMARY.md:32
+#: src/SUMMARY.md:23 src/SUMMARY.md:34
 #: src/radio_amateur/electrical_circuits/exercises.md:1
 #: src/leetcode/arrays&hashing.md:3
 msgid "Exercises"
 msgstr "Exercices"
 
-#: src/SUMMARY.md:22 src/radio_amateur/electrical_circuits/exercise1.md:1
+#: src/SUMMARY.md:24 src/radio_amateur/electrical_circuits/exercise1.md:1
 #, fuzzy
 msgid "Exercise 1"
 msgstr "Exercice 1"
 
-#: src/SUMMARY.md:24
+#: src/SUMMARY.md:26
 msgid "Tools"
 msgstr "Tools"
 
-#: src/SUMMARY.md:25
+#: src/SUMMARY.md:27
 #, fuzzy
 msgid "Project Tools"
 msgstr "Projets"
 
-#: src/SUMMARY.md:26 src/tools/CookieCutter.md:1
+#: src/SUMMARY.md:28 src/tools/CookieCutter.md:1
 msgid "Cookie Cutter"
 msgstr "Cookie Cutter"
 
-#: src/SUMMARY.md:27
+#: src/SUMMARY.md:29
 msgid "LazyGit"
 msgstr "LazyGit"
 
-#: src/SUMMARY.md:29
+#: src/SUMMARY.md:31
 msgid "Leetcode"
 msgstr "LeetCode"
 
-#: src/SUMMARY.md:30
+#: src/SUMMARY.md:32
 #, fuzzy
 msgid "Presentation LeetCode"
 msgstr "Présentation"
 
-#: src/SUMMARY.md:31
+#: src/SUMMARY.md:33
 msgid "Arrays And Hashing"
 msgstr "Arrays et Hashing"
 
-#: src/SUMMARY.md:33
+#: src/SUMMARY.md:35
 msgid "217"
 msgstr "217"
 
-#: src/SUMMARY.md:34
+#: src/SUMMARY.md:36
 msgid "242"
 msgstr "242"
 
@@ -1366,7 +1374,9 @@ msgid ""
 "apps, and backend services — exploiting flaws in logic, authentication, or "
 "input handling."
 msgstr ""
-"Les attaques au niveau des applications ciblent la couche logicielle — sites web, API, applications mobiles et services back-end — en exploitant des failles de logique, d’authentification ou de gestion des entrées."
+"Les attaques au niveau des applications ciblent la couche logicielle — sites "
+"web, API, applications mobiles et services back-end — en exploitant des "
+"failles de logique, d’authentification ou de gestion des entrées."
 
 #: src/cybersecurity/attacks/app-level.md:7
 msgid "**Common Application‑Level Attack Types**"
@@ -1381,7 +1391,8 @@ msgid ""
 "Attackers inject malicious SQL queries to read, modify, or delete database "
 "data."
 msgstr ""
-"Les attaquants injectent des requêtes SQL malveillantes pour lire, modifier ou supprimer des données dans la base de données."
+"Les attaquants injectent des requêtes SQL malveillantes pour lire, modifier "
+"ou supprimer des données dans la base de données."
 
 #: src/cybersecurity/attacks/app-level.md:13
 msgid "**2. Cross‑Site Scripting (XSS)**"
@@ -1392,7 +1403,9 @@ msgid ""
 "Malicious scripts are injected into web pages, allowing attackers to steal "
 "cookies, session tokens, or perform actions as the victim."
 msgstr ""
-"Des scripts malveillants sont injectés dans les pages web, permettant aux attaquants de voler des cookies, des jetons de session ou d’agir au nom de la victime."
+"Des scripts malveillants sont injectés dans les pages web, permettant aux "
+"attaquants de voler des cookies, des jetons de session ou d’agir au nom de "
+"la victime."
 
 #: src/cybersecurity/attacks/app-level.md:17
 msgid "**3. Cross‑Site Request Forgery (CSRF)**"
@@ -1403,7 +1416,8 @@ msgid ""
 "Tricks a user’s browser into performing unintended actions (e.g., changing "
 "passwords, sending money)."
 msgstr ""
-"Amène le navigateur d’un utilisateur à effectuer des actions non prévues (par exemple, changer des mots de passe, envoyer de l’argent)."
+"Amène le navigateur d’un utilisateur à effectuer des actions non prévues "
+"(par exemple, changer des mots de passe, envoyer de l’argent)."
 
 #: src/cybersecurity/attacks/app-level.md:21
 msgid "**4. Remote Code Execution (RCE)**"
@@ -1414,7 +1428,8 @@ msgid ""
 "Exploitation that allows an attacker to run arbitrary code on the target "
 "server."
 msgstr ""
-"Exploitation permettant à un attaquant d’exécuter du code arbitraire sur le serveur cible."
+"Exploitation permettant à un attaquant d’exécuter du code arbitraire sur le "
+"serveur cible."
 
 #: src/cybersecurity/attacks/app-level.md:25
 msgid "**5. Insecure Deserialization**"
@@ -1424,7 +1439,8 @@ msgstr "**5. Désérialisation non sécurisée**"
 msgid ""
 "Tampered serialized objects lead to privilege escalation or code execution."
 msgstr ""
-"Des objets sérialisés altérés peuvent entraîner une élévation de privilèges ou l’exécution de code."
+"Des objets sérialisés altérés peuvent entraîner une élévation de privilèges "
+"ou l’exécution de code."
 
 #: src/cybersecurity/attacks/app-level.md:29
 msgid "**6. Directory Traversal**"
@@ -1435,7 +1451,8 @@ msgid ""
 "Attackers access files outside the intended web directory using path "
 "manipulation (`../`)."
 msgstr ""
-"Les attaquants accèdent à des fichiers en dehors du répertoire web prévu en manipulant les chemins (`../`)."
+"Les attaquants accèdent à des fichiers en dehors du répertoire web prévu en "
+"manipulant les chemins (`../`)."
 
 #: src/cybersecurity/attacks/app-level.md:33
 msgid "**7. Server‑Side Request Forgery (SSRF)**"
@@ -1446,7 +1463,8 @@ msgid ""
 "The application is tricked into making network requests, often accessing "
 "internal systems."
 msgstr ""
-"L’application est trompée pour effectuer des requêtes réseau, accédant souvent à des systèmes internes."
+"L’application est trompée pour effectuer des requêtes réseau, accédant "
+"souvent à des systèmes internes."
 
 #: src/cybersecurity/attacks/app-level.md:37
 msgid "**8. Authentication & Session Attacks**"
@@ -1457,97 +1475,179 @@ msgid ""
 "Weak session tokens, stolen cookies, or flawed login logic allow "
 "unauthorized access."
 msgstr ""
-"Des jetons de session faibles, des cookies volés ou une logique de connexion défaillante permettent un accès non autorisé."
+"Des jetons de session faibles, des cookies volés ou une logique de connexion "
+"défaillante permettent un accès non autorisé."
+
+#: src/cybersecurity/attacks/app-level.md:41
+msgid "**9. Insecure Direct Object Reference (IDOR)**"
+msgstr "**9. Insecure Direct Object Reference (IDOR)**"
 
 #: src/cybersecurity/attacks/app-level.md:43
+#: src/cybersecurity/tools/zap/zap_idor.md:4
+msgid ""
+"Occurs when applications expose internal object identifiers (like user IDs "
+"or filenames) without proper authorization checks, allowing attackers to "
+"access or modify other users’ data."
+msgstr ""
+"Se produit lorsque les applications exposent des identifiants internes "
+"d’objets (comme des ID utilisateur ou des noms de fichiers) sans "
+"vérifications d’autorisation appropriées, permettant aux attaquants "
+"d’accéder aux données d’autres utilisateurs ou de les modifier."
+
+#: src/cybersecurity/attacks/app-level.md:47
 msgid "**Major Real‑World Application Attacks (Top 5)**"
 msgstr "**Principales attaques réelles au niveau des applications (Top 5)**"
 
-#: src/cybersecurity/attacks/app-level.md:45
+#: src/cybersecurity/attacks/app-level.md:49
 msgid "**1. Equifax Breach (2017)**"
 msgstr "**1. Violation de sécurité Equifax (2017)**"
 
-#: src/cybersecurity/attacks/app-level.md:47
+#: src/cybersecurity/attacks/app-level.md:51
 msgid ""
 "A vulnerability in Apache Struts led to massive data exposure (SSNs, "
 "birthdates, etc.)."
 msgstr ""
-"Une vulnérabilité dans Apache Struts a conduit à une exposition massive de données (numéros de sécurité sociale, dates de naissance, etc.)."
+"Une vulnérabilité dans Apache Struts a conduit à une exposition massive de "
+"données (numéros de sécurité sociale, dates de naissance, etc.)."
 
-#: src/cybersecurity/attacks/app-level.md:49
+#: src/cybersecurity/attacks/app-level.md:53
 msgid "**2. Log4Shell (2021)**"
 msgstr "**2. Log4Shell (2021)**"
 
-#: src/cybersecurity/attacks/app-level.md:51
+#: src/cybersecurity/attacks/app-level.md:55
 msgid ""
 "A simple logging string triggered remote code execution in millions of Java "
 "applications."
 msgstr ""
-"Une simple chaîne de journalisation a déclenché l’exécution de code à distance dans des millions d’applications Java."
+"Une simple chaîne de journalisation a déclenché l’exécution de code à "
+"distance dans des millions d’applications Java."
 
-#: src/cybersecurity/attacks/app-level.md:53
+#: src/cybersecurity/attacks/app-level.md:57
 msgid "**3. Heartbleed (2014)**"
 msgstr "**3. Heartbleed (2014)**"
 
-#: src/cybersecurity/attacks/app-level.md:55
+#: src/cybersecurity/attacks/app-level.md:59
 msgid ""
 "OpenSSL bug allowed attackers to read memory, exposing passwords and private "
 "keys."
 msgstr ""
-"Un bug dans OpenSSL a permis aux attaquants de lire la mémoire, exposant mots de passe et clés privées."
+"Un bug dans OpenSSL a permis aux attaquants de lire la mémoire, exposant "
+"mots de passe et clés privées."
 
-#: src/cybersecurity/attacks/app-level.md:57
+#: src/cybersecurity/attacks/app-level.md:61
 msgid "**4. Uber API Breach (2016)**"
 msgstr "**4. Violation de l’API Uber (2016)**"
 
-#: src/cybersecurity/attacks/app-level.md:59
+#: src/cybersecurity/attacks/app-level.md:63
 msgid ""
 "Hard‑coded credentials in source code let attackers access customer/driver "
 "data."
 msgstr ""
-"Des identifiants codés en dur dans le code source ont permis aux attaquants d’accéder aux données des clients et conducteurs."
+"Des identifiants codés en dur dans le code source ont permis aux attaquants "
+"d’accéder aux données des clients et conducteurs."
 
-#: src/cybersecurity/attacks/app-level.md:61
+#: src/cybersecurity/attacks/app-level.md:65
 msgid "**5. WordPress Plugin Vulnerabilities (Ongoing)**"
 msgstr "**5. Vulnérabilités des plugins WordPress (en cours)**"
 
-#: src/cybersecurity/attacks/app-level.md:63
+#: src/cybersecurity/attacks/app-level.md:67
 msgid ""
 "Thousands of sites compromised yearly due to insecure or outdated plugins."
 msgstr ""
-"Des milliers de sites sont compromis chaque année en raison de plugins non sécurisés ou obsolètes."
+"Des milliers de sites sont compromis chaque année en raison de plugins non "
+"sécurisés ou obsolètes."
 
-#: src/cybersecurity/attacks/app-level.md:67
+#: src/cybersecurity/attacks/app-level.md:71
 msgid "**Common Tools Used in App‑Level Attacks**"
-msgstr "**Outils courants utilisés dans les attaques au niveau des applications**"
+msgstr ""
+"**Outils courants utilisés dans les attaques au niveau des applications**"
 
-#: src/cybersecurity/attacks/app-level.md:69
+#: src/cybersecurity/attacks/app-level.md:73
 msgid "**Burp Suite** – Proxy for intercepting and modifying web traffic"
 msgstr "**Burp Suite** – Proxy pour intercepter et modifier le trafic web"
 
-#: src/cybersecurity/attacks/app-level.md:70
+#: src/cybersecurity/attacks/app-level.md:74
 msgid "**OWASP ZAP** – Open‑source web app scanner"
 msgstr "**OWASP ZAP** – Scanner open-source pour applications web"
 
-#: src/cybersecurity/attacks/app-level.md:71
+#: src/cybersecurity/attacks/app-level.md:75
 msgid "**sqlmap** – Automated SQL injection tool"
 msgstr "**sqlmap** – Outil automatisé d’injection SQL"
 
-#: src/cybersecurity/attacks/app-level.md:72
+#: src/cybersecurity/attacks/app-level.md:76
 msgid "**DirBuster / gobuster** – Directory and file enumeration"
 msgstr "**DirBuster / gobuster** – Énumération de répertoires et fichiers"
 
-#: src/cybersecurity/attacks/app-level.md:73
+#: src/cybersecurity/attacks/app-level.md:77
 msgid "**Metasploit** – Framework for exploiting known vulnerabilities"
 msgstr "**Metasploit** – Framework pour exploiter des vulnérabilités connues"
 
-#: src/cybersecurity/attacks/app-level.md:74
+#: src/cybersecurity/attacks/app-level.md:78
 msgid "**Postman / curl** – API testing and fuzzing"
 msgstr "**Postman / curl** – Test et fuzzing d’API"
 
+#: src/cybersecurity/tools/zap/zap_idor.md:1
+msgid "Zap for IDOR"
+msgstr "Zap pour une attaque IDOR"
+
+#: src/cybersecurity/tools/zap/zap_idor.md:3
+msgid ""
+"[Recap of IDOR](../../attacks/app-level.html#9-insecure-direct-object-"
+"reference-idor):"
+msgstr ""
+"[Recap de IDOR](../../attacks/app-level.html#9-insecure-direct-object-"
+"reference-idor):"
+
+#: src/cybersecurity/tools/zap/zap_idor.md:6
+msgid ""
+"I have discovered this tool with this level: [IDOR - Santa’s Little IDOR]"
+"(https://tryhackme.com/room/idor-aoc2025-zl6MywQid9)"
+msgstr ""
+"J'ai pu découvrir cet outils avec ce niveau: [IDOR - Santa’s Little IDOR]"
+"(https://tryhackme.com/room/idor-aoc2025-zl6MywQid9)"
+
+#: src/cybersecurity/tools/zap/zap_idor.md:8
+msgid "![Image of an IDOR bug](/images/cybersecurity/tools/zap/IDOR/IDOR.png)"
+msgstr "![Image d'un bug IDOR](/images/cybersecurity/tools/zap/IDOR/IDOR.png)"
+
+#: src/cybersecurity/tools/zap/zap_idor.md:10
+msgid ""
+"You can access to storage section and see that they store your access "
+"through a simple id: ![Image of the storage](/images/cybersecurity/tools/zap/"
+"IDOR/storage.png)"
+msgstr ""
+"En accédant à la séction storage, on peut remarquer qu'il y a notre id stocké."
+"![Image of the storage](/images/cybersecurity/tools/zap/"
+"IDOR/storage.png)"
+
+#: src/cybersecurity/tools/zap/zap_idor.md:13
+msgid ""
+"Now you can update it by hand and refresh to see the panel of another one."
+msgstr ""
+"Il suffit donc de le modifier pour permettre la visualisation du pannel d'un autre."
+
+#: src/cybersecurity/tools/zap/zap_idor.md:15
+msgid ""
+"Now let's scrap it with zap: ![Image of the IDOR](/images/cybersecurity/"
+"tools/zap/IDOR/zap_IDOR_detection.png) As you can see we found the request, "
+"let's automate: ![fuzz image](/images/cybersecurity/tools/zap/IDOR/fuzz.png)"
+msgstr ""
+"Maintenant utilisons ZAP pour scrapper les données: ![Image of the IDOR](/images/cybersecurity/"
+"tools/zap/IDOR/zap_IDOR_detection.png) Comme vous pouvez le voir nous avons trouvé la requête dans ZAP, "
+"Il ne reste plus qu'à automatiser avec fuzz![fuzz image](/images/cybersecurity/tools/zap/IDOR/fuzz.png)"
+
+#: src/cybersecurity/tools/zap/zap_idor.md:20
+msgid ""
+"We got some pretty result let's find out. ![Image of the result](/images/"
+"cybersecurity/tools/zap/IDOR/fuzz_result.png) Just need to take a look for "
+"now !"
+msgstr ""
+"Nous avons des résultats! ![Image of the result](/images/"
+"cybersecurity/tools/zap/IDOR/fuzz_result.png)"
+
 #: src/cybersecurity/tools/ss.md:2
 msgid "ss is the new command of netstat, you can use it as so:"
-msgstr ""
+msgstr "`ss` est la nouvelle commande de netstat. Vous pouvez l'utiliser comme suit:"
 
 #: src/radio_amateur/presentation.md:1
 msgid "Introduction to Amateur Radio"

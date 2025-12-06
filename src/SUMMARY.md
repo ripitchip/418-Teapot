@@ -13,6 +13,8 @@
   - [Network](./cybersecurity/attacks/network.md)
   - [App Level](./cybersecurity/attacks/app-level.md)
 - [Cybersecurity tools]()
+  - [zap](./cybersecurity/tools/zap/zap.md)
+    - [zap for idor](./cybersecurity/tools/zap/zap_idor.md)
   - [ss](./cybersecurity/tools/ss.md)
 
 # Radio Amateur
